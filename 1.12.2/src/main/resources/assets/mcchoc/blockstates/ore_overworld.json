@@ -1,0 +1,14 @@
+{
+    "variants": {
+        "variant=silver": { "model": "mcchoc:silver_ore" },
+        "variant=copper": { "model": "mcchoc:copper_ore" },
+        "variant=lead": { "model": "mcchoc:lead_ore" },
+        "variant=steel": {"model": "mcchoc:steel_ore" },
+        "variant=aluminum": {"model": "mcchoc:aluminum_ore"},
+        "variant=titanium": {"model": "mcchoc:titanium_ore"},
+        "variant=magnesium": {"model": "mcchoc:magnesium_ore"},
+        "variant=bronze": {"model": "mcchoc:bronze_ore"},
+        "variant=uranium": {"model": "mcchoc:uranium_ore"},
+        "variant=plutonium": {"model": "mcchoc:plutonium_ore"}
+    }
+}

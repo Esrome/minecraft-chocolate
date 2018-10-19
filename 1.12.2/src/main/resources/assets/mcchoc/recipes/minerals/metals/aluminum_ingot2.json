@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "aluminum_ingot",
+    
+    "pattern":
+    [
+        "M"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:aluminum_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:aluminum_ingot",
+        "count": 9
+    }
+}

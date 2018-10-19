@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:copper_ingot"
+    ]
+  },
+  "criteria": {
+    "has_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:copper_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_copper"
+    ]
+  ]
+}

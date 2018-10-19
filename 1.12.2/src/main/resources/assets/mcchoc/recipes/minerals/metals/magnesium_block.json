@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MMM",
+        "MMM",
+        "MMM"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:magnesium_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:magnesium_block",
+        "count": 1
+    }
+}

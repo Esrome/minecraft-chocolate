@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "silver_ingot",
+    
+    "pattern":
+    [
+        "MMM",
+        "MMM",
+        "MMM"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:silver_nugget"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:silver_ingot",
+        "count": 1
+    }
+}

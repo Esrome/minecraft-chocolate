@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mcchoc:silver_ingot"
+        },
+        "title": {
+            "translate": "advancements.mcchoc.minerals.smelt_silver.title"
+        },
+        "description": {
+            "translate": "advancements.mcchoc.minerals.smelt_silver.description"
+        }
+    },
+    "parent": "mcchoc:minerals/root",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "mcchoc:silver_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

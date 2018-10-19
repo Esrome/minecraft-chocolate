@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MMM",
+        "MMM",
+        "MMM"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:lead_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:lead_block",
+        "count": 1
+    }
+}

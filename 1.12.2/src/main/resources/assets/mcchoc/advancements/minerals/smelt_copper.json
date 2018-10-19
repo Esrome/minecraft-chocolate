@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mcchoc:copper_ingot"
+        },
+        "title": {
+            "translate": "advancements.mcchoc.minerals.smelt_copper.title"
+        },
+        "description": {
+            "translate": "advancements.mcchoc.minerals.smelt_copper.description"
+        }
+    },
+    "parent": "mcchoc:minerals/root",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "mcchoc:copper_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

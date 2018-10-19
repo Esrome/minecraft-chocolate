@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mcchoc:bronze_ingot"
+        },
+        "title": {
+            "translate": "advancements.mcchoc.minerals.smelt_bronze.title"
+        },
+        "description": {
+            "translate": "advancements.mcchoc.minerals.smelt_bronze.description"
+        }
+    },
+    "parent": "mcchoc:minerals/root",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "mcchoc:bronze_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

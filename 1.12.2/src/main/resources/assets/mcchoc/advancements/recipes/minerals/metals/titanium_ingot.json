@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:titanium_ingot"
+    ]
+  },
+  "criteria": {
+    "has_titanium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:titanium_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_titanium"
+    ]
+  ]
+}

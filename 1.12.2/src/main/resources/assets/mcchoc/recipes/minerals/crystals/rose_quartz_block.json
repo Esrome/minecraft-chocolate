@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MMM",
+        "MMM",
+        "MMM"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:rose_quartz"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:rose_quartz_block",
+        "count": 1
+    }
+}

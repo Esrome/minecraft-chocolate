@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "mcchoc:silver_ingot"
+        },
+        "title": {
+            "translate": "advancements.mcchoc.minerals.root.title"
+        },
+        "description": {
+            "translate": "advancements.mcchoc.minerals.root.description"
+        },
+        "background": "mcchoc:textures/blocks/silver_ore.png",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "mineral_obtained": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item1": "mcchoc:copper_ore",
+                        "item2": "mcchoc:lead_ore",
+                        "item3": "mcchoc:silver_ore",
+                        "item4": "mcchoc:steel_ore"
+                    }
+                ]
+            }
+        }
+    }
+}

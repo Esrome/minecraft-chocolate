@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "mcchoc:blocks/lead_block",
+        "top": "mcchoc:blocks/lead_block",
+        "side": "mcchoc:blocks/lead_block"
+    }
+}

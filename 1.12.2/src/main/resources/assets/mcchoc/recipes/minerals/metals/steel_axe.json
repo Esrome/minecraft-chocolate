@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MM",
+        "MS",
+        " S"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:steel_ingot"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:steel_axe",
+        "count": 1
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mcchoc:magnesium_ingot"
+        },
+        "title": {
+            "translate": "advancements.mcchoc.minerals.smelt_magnesium.title"
+        },
+        "description": {
+            "translate": "advancements.mcchoc.minerals.smelt_magnesium.description"
+        }
+    },
+    "parent": "mcchoc:minerals/root",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "mcchoc:magnesium_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

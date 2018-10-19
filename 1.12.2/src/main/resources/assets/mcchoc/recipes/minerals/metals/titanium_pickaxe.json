@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MMM",
+        " S ",
+        " S "      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:titanium_ingot"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:titanium_pickaxe",
+        "count": 1
+    }
+}

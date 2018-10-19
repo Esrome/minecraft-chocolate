@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mcchoc:aluminum_ingot"
+        },
+        "title": {
+            "translate": "advancements.mcchoc.minerals.smelt_aluminum.title"
+        },
+        "description": {
+            "translate": "advancements.mcchoc.minerals.smelt_aluminum.description"
+        }
+    },
+    "parent": "mcchoc:minerals/root",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "mcchoc:aluminum_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

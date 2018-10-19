@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "mcchoc:blocks/tomato_plant_3"
+    }
+}

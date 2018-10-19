@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "M"    
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:bronze_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:bronze_nugget",
+        "count": 9
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MM",
+        " S",
+        " S"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:bronze_ingot"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:bronze_hoe",
+        "count": 1
+    }
+}

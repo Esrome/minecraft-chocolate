@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "M",
+        "S",
+        "S"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:aluminum_ingot"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:aluminum_spade",
+        "count": 1
+    }
+}

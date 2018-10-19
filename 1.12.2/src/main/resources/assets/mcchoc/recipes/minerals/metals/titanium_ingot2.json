@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "titanium_ingot",
+    
+    "pattern":
+    [
+        "M"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:titanium_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:titanium_ingot",
+        "count": 9
+    }
+}

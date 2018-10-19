@@ -1,0 +1,36 @@
+{
+	"credit": "Made By Esrome The Strange With Blockbench",
+	"textures": {
+		"0": "mcchoc:blocks/halloween/candle/filler",
+		"1": "mcchoc:blocks/halloween/candle/flame",
+		"particle": "mcchoc:blocks/halloween/candle/filler"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [6, 0, 6],
+			"to": [10, 5, 10],
+			"faces": {
+				"north": {"texture": "#0", "uv": [3, 1, 7, 6]},
+				"east": {"texture": "#0", "uv": [0, 7, 4, 12] },
+				"south": {"texture": "#0", "uv": [0, 0, 4, 5] },
+				"west": {"texture": "#0", "uv": [2, 1, 6, 6] },
+				"up": {"texture": "#0", "uv": [3, 5, 7, 9] },
+				"down": {"texture": "#0", "uv": [6, 3, 10, 7]}
+			}
+		},
+		{
+			"name": "Flame",
+			"from": [7, 5, 7],
+			"to": [9, 6, 9],
+			"faces": {
+				"north": {"texture": "#1", "uv": [0, 0, 2, 1] },
+				"east": {"texture": "#1", "uv": [5, 4, 7, 5] },
+				"south": {"texture": "#1", "uv": [2, 3, 4, 4]  },
+				"west": {"texture": "#1", "uv": [5, 2, 7, 3]},
+				"up": {"texture": "#1", "uv": [1, 2, 3, 4]},
+				"down": {"texture": "#1", "uv": [0, 0, 2, 2] }
+			}
+		}
+	]
+}

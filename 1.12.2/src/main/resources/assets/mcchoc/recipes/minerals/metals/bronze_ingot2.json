@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bronze_ingot",
+    
+    "pattern":
+    [
+        "M"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:bronze_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:bronze_ingot",
+        "count": 9
+    }
+}

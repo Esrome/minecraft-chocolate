@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:rose_quartz_pillar"
+    ]
+  },
+  "criteria": {
+    "has_rose_quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:rose_quartz_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rose_quartz"
+    ]
+  ]
+}

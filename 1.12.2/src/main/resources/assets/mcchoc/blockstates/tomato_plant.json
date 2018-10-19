@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "mcchoc:tomato_plant_1" },
+        "age=1": { "model": "mcchoc:tomato_plant_1" },
+        "age=2": { "model": "mcchoc:tomato_plant_2" },
+        "age=3": { "model": "mcchoc:tomato_plant_2" },
+        "age=4": { "model": "mcchoc:tomato_plant_3" },
+        "age=5": { "model": "mcchoc:tomato_plant_3" },
+        "age=6": { "model": "mcchoc:tomato_plant_3" },
+        "age=7": { "model": "mcchoc:tomato_plant_4" }
+    }
+}

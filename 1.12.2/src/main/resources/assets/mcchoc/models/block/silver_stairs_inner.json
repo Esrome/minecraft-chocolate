@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "mcchoc:blocks/silver_block",
+        "top": "mcchoc:blocks/silver_block",
+        "side": "mcchoc:blocks/silver_block"
+    }
+}

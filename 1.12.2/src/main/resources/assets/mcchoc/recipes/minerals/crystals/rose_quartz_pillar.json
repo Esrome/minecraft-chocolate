@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "M",
+        "M"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:rose_quartz_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:rose_quartz_pillar",
+        "count": 2
+    }
+}

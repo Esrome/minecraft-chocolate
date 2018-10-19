@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MM",
+        "MS",
+        " S"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:copper_ingot"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:copper_axe",
+        "count": 1
+    }
+}

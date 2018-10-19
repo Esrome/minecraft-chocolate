@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "candle=false,facing=north": { "model": "mcchoc:special_jack_o_lantern" },
+        "candle=true,facing=north": {"model": "mcchoc:special_jack_o_lantern" },
+        "candle=false,facing=south": { "model": "mcchoc:special_jack_o_lantern", "y": 180 },
+        "candle=true,facing=south": {"model": "mcchoc:special_jack_o_lantern", "y": 180 },
+        "candle=false,facing=west": { "model": "mcchoc:special_jack_o_lantern", "y": 270 },
+        "candle=true,facing=west": {"model": "mcchoc:special_jack_o_lantern", "y": 270 },
+        "candle=false,facing=east": { "model": "mcchoc:special_jack_o_lantern", "y": 90 },
+        "candle=true,facing=east": {"model": "mcchoc:special_jack_o_lantern", "y": 90 }
+    }
+}

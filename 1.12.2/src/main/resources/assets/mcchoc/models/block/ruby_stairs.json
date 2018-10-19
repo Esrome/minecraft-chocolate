@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "mcchoc:blocks/ruby_block",
+        "top": "mcchoc:blocks/ruby_block",
+        "side": "mcchoc:blocks/ruby_block"
+    }
+}

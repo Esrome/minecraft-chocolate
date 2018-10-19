@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mcchoc:trick_or_treat" },
+        "facing=south": { "model": "mcchoc:trick_or_treat", "y": 180 },
+        "facing=west": { "model": "mcchoc:trick_or_treat", "y": 270 },
+        "facing=east": { "model": "mcchoc:trick_or_treat", "y": 90 }
+    }
+}

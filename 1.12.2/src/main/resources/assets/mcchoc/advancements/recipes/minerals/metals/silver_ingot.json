@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:silver_ingot"
+    ]
+  },
+  "criteria": {
+    "has_silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:silver_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_silver"
+    ]
+  ]
+}

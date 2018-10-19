@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MMM",
+        " S ",
+        " S "      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:lead_ingot"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:lead_pickaxe",
+        "count": 1
+    }
+}
