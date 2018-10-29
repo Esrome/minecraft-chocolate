@@ -5,19 +5,18 @@ import java.util.List;
 
 import esrome.mcchoc.MinecraftChocolate;
 import esrome.mcchoc.blocks.BlockBase;
-import esrome.mcchoc.blocks.BlockGlass;
 import esrome.mcchoc.blocks.BlockModStairs;
-import esrome.mcchoc.blocks.bluestone.BlockBluestoneOre;
-import esrome.mcchoc.blocks.bluestone.BlockCoalGenerator;
-import esrome.mcchoc.blocks.bluestone.BlockComponentCrafter;
 import esrome.mcchoc.blocks.halloween.BlockCandle;
 import esrome.mcchoc.blocks.halloween.BlockHalloweenSign;
 import esrome.mcchoc.blocks.halloween.BlockSpecialJackOLantern;
 import esrome.mcchoc.blocks.minerals.crystals.BlockAmethystOre;
+import esrome.mcchoc.blocks.minerals.crystals.BlockCarnelianOre;
+import esrome.mcchoc.blocks.minerals.crystals.BlockMalachiteOre;
 import esrome.mcchoc.blocks.minerals.crystals.BlockPeridotOre;
 import esrome.mcchoc.blocks.minerals.crystals.BlockRoseQuartzOre;
 import esrome.mcchoc.blocks.minerals.crystals.BlockRubyOre;
 import esrome.mcchoc.blocks.minerals.crystals.BlockSapphireOre;
+import esrome.mcchoc.blocks.minerals.crystals.BlockTurquoiseOre;
 import esrome.mcchoc.blocks.minerals.metals.BlockOres;
 import esrome.mcchoc.blocks.plants.BlockTomatoPlant;
 import net.minecraft.block.Block;
@@ -67,30 +66,42 @@ public static final List<Block> BLOCKS = new ArrayList<Block>();
 	public static final Block ROSE_QUARTZ_PILLAR = new BlockBase("rose_quartz_pillar", Material.ROCK, 3.0F, 1, SoundType.STONE, MinecraftChocolate.MINERALS);
 	public static final Block ROSE_QUARTZ_BLOCK_CHISELED = new BlockBase("rose_quartz_block_chiseled", Material.ROCK, 3.0F, 1, SoundType.STONE, MinecraftChocolate.MINERALS);
 	public static final Block ROSE_QUARTZ_STAIRS = new BlockModStairs(ROSE_QUARTZ_BLOCK.getDefaultState(), "rose_quartz_stairs", MinecraftChocolate.MINERALS);
+	//malachite
+	public static final Block MALACHITE_ORE = new BlockMalachiteOre("malachite_ore");
+	public static final Block MALACHITE_BLOCK = new BlockBase("malachite_block", Material.ROCK, 3.0F, 1, SoundType.STONE, MinecraftChocolate.MINERALS);
+	public static final Block MALACHITE_PILLAR = new BlockBase("malachite_pillar", Material.ROCK, 3.0F, 1, SoundType.STONE, MinecraftChocolate.MINERALS);
+	public static final Block MALACHITE_BLOCK_CHISELED = new BlockBase("malachite_block_chiseled", Material.ROCK, 3.0F, 1, SoundType.STONE, MinecraftChocolate.MINERALS);
+	public static final Block MALACHITE_STAIRS = new BlockModStairs(MALACHITE_BLOCK.getDefaultState(), "malachite_stairs", MinecraftChocolate.MINERALS);
+	//carnelian
+	public static final Block CARNELIAN_ORE = new BlockCarnelianOre("carnelian_ore");
+	public static final Block CARNELIAN_BLOCK = new BlockBase("carnelian_block", Material.ROCK, 3.0F, 1, SoundType.STONE, MinecraftChocolate.MINERALS);
+	public static final Block CARNELIAN_PILLAR = new BlockBase("carnelian_pillar", Material.ROCK, 3.0F, 1, SoundType.STONE, MinecraftChocolate.MINERALS);
+	public static final Block CARNELIAN_BLOCK_CHISELED = new BlockBase("carnelian_block_chiseled", Material.ROCK, 3.0F, 1, SoundType.STONE, MinecraftChocolate.MINERALS);
+	public static final Block CARNELIAN_STAIRS = new BlockModStairs(CARNELIAN_BLOCK.getDefaultState(), "carnelian_stairs", MinecraftChocolate.MINERALS);
+	//carnelian
+	public static final Block TURQUOISE_ORE = new BlockTurquoiseOre("turquoise_ore");
+	public static final Block TURQUOISE_BLOCK = new BlockBase("turquoise_block", Material.ROCK, 3.0F, 1, SoundType.STONE, MinecraftChocolate.MINERALS);
+	public static final Block TURQUOISE_PILLAR = new BlockBase("turquoise_pillar", Material.ROCK, 3.0F, 1, SoundType.STONE, MinecraftChocolate.MINERALS);
+	public static final Block TURQUOISE_BLOCK_CHISELED = new BlockBase("turquoise_block_chiseled", Material.ROCK, 3.0F, 1, SoundType.STONE, MinecraftChocolate.MINERALS);
+	public static final Block TURQUOISE_STAIRS = new BlockModStairs(TURQUOISE_BLOCK.getDefaultState(), "turquoise_stairs", MinecraftChocolate.MINERALS);
 	//minecraft
-	public static final Block DIAMOND_GLASS = new BlockGlass("diamond_glass", CreativeTabs.DECORATIONS);
 	public static final Block DIAMOND_STAIRS = new BlockModStairs(Blocks.DIAMOND_BLOCK.getDefaultState(), "diamond_stairs", CreativeTabs.DECORATIONS);
-	public static final Block EMERALD_GLASS = new BlockGlass("emerald_glass", CreativeTabs.DECORATIONS);
 	public static final Block EMERALD_STAIRS = new BlockModStairs(Blocks.EMERALD_BLOCK.getDefaultState(), "emerald_stairs", CreativeTabs.DECORATIONS);
 	//sapphire
 	public static final Block SAPPHIRE_ORE = new BlockSapphireOre("sapphire_ore");
 	public static final Block SAPPHIRE_BLOCK = new BlockBase("sapphire_block", Material.IRON, 3.0F, 2, SoundType.METAL, MinecraftChocolate.MINERALS);
-	public static final Block SAPPHIRE_GLASS = new BlockGlass("sapphire_glass", MinecraftChocolate.MINERALS);
 	public static final Block SAPPIRE_STAIRS = new BlockModStairs(SAPPHIRE_ORE.getDefaultState(), "sapphire_stairs", MinecraftChocolate.MINERALS);
 	//ruby
 	public static final Block RUBY_ORE = new BlockRubyOre("ruby_ore");
 	public static final Block RUBY_BLOCK = new BlockBase("ruby_block", Material.IRON, 3.0F, 2, SoundType.METAL, MinecraftChocolate.MINERALS);
-	public static final Block RUBY_GLASS = new BlockGlass("ruby_glass", MinecraftChocolate.MINERALS);
 	public static final Block RUBY_STAIRS = new BlockModStairs(RUBY_ORE.getDefaultState(), "ruby_stairs", MinecraftChocolate.MINERALS);
 	//amethyst
 	public static final Block AMETHYST_ORE = new BlockAmethystOre("amethyst_ore");
 	public static final Block AMETHYST_BLOCK = new BlockBase("amethyst_block", Material.IRON, 3.0F, 2, SoundType.METAL, MinecraftChocolate.MINERALS);
-	public static final Block AMETHYST_GLASS = new BlockGlass("amethyst_glass", MinecraftChocolate.MINERALS);
 	public static final Block AMETHYST_STAIRS = new BlockModStairs(AMETHYST_ORE.getDefaultState(), "amethyst_stairs", MinecraftChocolate.MINERALS);
 	//peridot
 	public static final Block PERIDOT_ORE = new BlockPeridotOre("peridot_ore");
 	public static final Block PERIDOT_BLOCK = new BlockBase("peridot_block", Material.IRON, 3.0F, 2, SoundType.METAL, MinecraftChocolate.MINERALS);
-	public static final Block PERIDOT_GLASS = new BlockGlass("peridot_glass", MinecraftChocolate.MINERALS);
 	public static final Block PERIDOT_STAIRS = new BlockModStairs(PERIDOT_BLOCK.getDefaultState(), "peridot_stairs", MinecraftChocolate.MINERALS);
 	
 	/*

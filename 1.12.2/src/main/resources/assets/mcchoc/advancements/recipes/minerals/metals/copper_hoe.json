@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:copper_hoe"
+      "mcchoc:minerals/metals/copper_hoe"
     ]
   },
   "criteria": {

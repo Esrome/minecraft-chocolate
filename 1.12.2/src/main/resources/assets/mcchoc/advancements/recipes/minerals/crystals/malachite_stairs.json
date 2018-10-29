@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:minerals/crystals/malachite_stairs"
+    ]
+  },
+  "criteria": {
+    "has_malachite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:malachite_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_malachite"
+    ]
+  ]
+}

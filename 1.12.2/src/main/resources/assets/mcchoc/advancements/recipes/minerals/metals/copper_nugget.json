@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:copper_nugget"
+      "mcchoc:minerals/metals/copper_nugget"
     ]
   },
   "criteria": {

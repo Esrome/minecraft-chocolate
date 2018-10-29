@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:misc/candle"
+    ]
+  },
+  "criteria": {
+    "has_wax": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:wax"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wax"
+    ]
+  ]
+}

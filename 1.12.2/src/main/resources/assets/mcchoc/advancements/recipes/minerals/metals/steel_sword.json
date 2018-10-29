@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:steel_sword"
+      "mcchoc:minerals/metals/steel_sword"
     ]
   },
   "criteria": {

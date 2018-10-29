@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "side": "mcchoc:blocks/turquoise_block_chiseled",
+        "end": "mcchoc:blocks/turquoise_block_chiseled_top"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "T",
+        "W"      
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "mcchoc:wax"
+        },
+        "T":
+        {
+            "item": "minecraft:torch"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:candle",
+        "count": 1
+    }
+}

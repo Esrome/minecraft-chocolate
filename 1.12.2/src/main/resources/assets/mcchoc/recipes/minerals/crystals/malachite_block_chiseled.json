@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "M",
+        "M"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:malachite_pillar"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:malachite_block_chiseled",
+        "count": 2
+    }
+}

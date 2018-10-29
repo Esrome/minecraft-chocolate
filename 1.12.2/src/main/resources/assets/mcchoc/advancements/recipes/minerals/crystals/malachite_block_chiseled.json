@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:minerals/crystals/malachite_block_chiseled"
+    ]
+  },
+  "criteria": {
+    "has_malachite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:malachite_pillar"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_malachite"
+    ]
+  ]
+}

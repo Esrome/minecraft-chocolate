@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:rose_quartz_pillar"
+      "mcchoc:minerals/crystals/rose_quartz_pillar"
     ]
   },
   "criteria": {

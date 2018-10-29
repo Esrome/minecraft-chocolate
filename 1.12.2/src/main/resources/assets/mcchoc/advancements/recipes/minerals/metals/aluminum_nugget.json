@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:aluminum_nugget"
+      "mcchoc:minerals/metals/aluminum_nugget"
     ]
   },
   "criteria": {

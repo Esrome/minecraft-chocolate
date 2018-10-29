@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:aluminum_ingot2"
+      "mcchoc:minerals/metals/aluminum_ingot2"
     ]
   },
   "criteria": {

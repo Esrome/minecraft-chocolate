@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:titanium_axe"
+      "mcchoc:minerals/metals/titanium_axe"
     ]
   },
   "criteria": {

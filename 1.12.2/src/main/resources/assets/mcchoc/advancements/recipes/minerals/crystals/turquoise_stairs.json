@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:minerals/crystals/turquoise_stairs"
+    ]
+  },
+  "criteria": {
+    "has_turquoise": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:turquoise_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_turquoise"
+    ]
+  ]
+}

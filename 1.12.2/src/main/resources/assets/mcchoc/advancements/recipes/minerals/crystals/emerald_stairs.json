@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:minerals/crystals/emerald_stairs"
+    ]
+  },
+  "criteria": {
+    "has_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "emerald_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_emerald"
+    ]
+  ]
+}

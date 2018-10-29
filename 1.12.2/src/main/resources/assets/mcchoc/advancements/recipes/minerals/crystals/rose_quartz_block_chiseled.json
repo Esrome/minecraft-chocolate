@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:rose_quartz_block_chiseled"
+      "mcchoc:minerals/crystals/rose_quartz_block_chiseled"
     ]
   },
   "criteria": {

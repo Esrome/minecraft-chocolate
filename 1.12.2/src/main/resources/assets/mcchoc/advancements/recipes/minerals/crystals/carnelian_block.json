@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:minerals/crystals/carnelian_block"
+    ]
+  },
+  "criteria": {
+    "has_carnelian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:carnelian"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_carnelian"
+    ]
+  ]
+}

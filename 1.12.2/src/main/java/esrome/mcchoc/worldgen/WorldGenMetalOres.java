@@ -17,7 +17,7 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class WorldGenMetalOres implements IWorldGenerator {
 
-	private WorldGenerator ore_overworld_steel, ore_overworld_copper, ore_overworld_lead, ore_overworld_titanium, ore_overworld_aluminum, ore_overworld_silver, ore_overworld_magnesium, ore_overworld_bronze, ore_overworld_rose_quartz;
+	private WorldGenerator ore_overworld_steel, ore_overworld_copper, ore_overworld_lead, ore_overworld_titanium, ore_overworld_aluminum, ore_overworld_silver, ore_overworld_magnesium, ore_overworld_bronze, ore_overworld_rose_quartz, ore_overworld_malachite, ore_overworld_carnelian, ore_overworld_turquoise, ore_overworld_ruby, ore_overworld_sapphire, ore_overworld_peridot, ore_overworld_amethyst;
 	
 	public WorldGenMetalOres(){
 		ore_overworld_steel = new WorldGenMinable(ModBlocks.MINECRAFT_CHOCOLATE_ORES.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumMetalType.STEEL), 8, BlockMatcher.forBlock(Blocks.STONE));
@@ -29,6 +29,13 @@ public class WorldGenMetalOres implements IWorldGenerator {
 		ore_overworld_bronze = new WorldGenMinable(ModBlocks.MINECRAFT_CHOCOLATE_ORES.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumMetalType.BRONZE), 8, BlockMatcher.forBlock(Blocks.STONE));
 		ore_overworld_magnesium = new WorldGenMinable(ModBlocks.MINECRAFT_CHOCOLATE_ORES.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumMetalType.MAGNESIUM), 8, BlockMatcher.forBlock(Blocks.STONE));
 		ore_overworld_rose_quartz = new WorldGenMinable(ModBlocks.ROSE_QUARTZ_ORE.getDefaultState(), 8, BlockMatcher.forBlock(Blocks.STONE));
+		ore_overworld_malachite = new WorldGenMinable(ModBlocks.MALACHITE_ORE.getDefaultState(), 8, BlockMatcher.forBlock(Blocks.STONE));
+		ore_overworld_carnelian = new WorldGenMinable(ModBlocks.CARNELIAN_ORE.getDefaultState(), 8, BlockMatcher.forBlock(Blocks.STONE));
+		ore_overworld_turquoise = new WorldGenMinable(ModBlocks.TURQUOISE_ORE.getDefaultState(), 8, BlockMatcher.forBlock(Blocks.STONE));
+		ore_overworld_ruby = new WorldGenMinable(ModBlocks.RUBY_ORE.getDefaultState(), 8, BlockMatcher.forBlock(Blocks.STONE));
+		ore_overworld_sapphire = new WorldGenMinable(ModBlocks.SAPPHIRE_ORE.getDefaultState(), 8, BlockMatcher.forBlock(Blocks.STONE));
+		ore_overworld_peridot = new WorldGenMinable(ModBlocks.PERIDOT_ORE.getDefaultState(), 8, BlockMatcher.forBlock(Blocks.STONE));
+		ore_overworld_amethyst = new WorldGenMinable(ModBlocks.AMETHYST_ORE.getDefaultState(), 8, BlockMatcher.forBlock(Blocks.STONE));
 	}
 	
 	private void runGenerator(WorldGenerator gen, World world, Random rand, int chunkx, int chunkz, int chance, int minHeight, int maxHeight){
@@ -50,16 +57,24 @@ public class WorldGenMetalOres implements IWorldGenerator {
 		case 0:
 			for(int a = 0; a < 3; a++){
 				Random rand = new Random();
-				int ore = 1 + rand.nextInt(8);
+				int ore = 1 + rand.nextInt(7);
 					if(ore == 1) runGenerator(ore_overworld_steel, world, random, chunkX, chunkZ, 4, 0, 48);
 					if(ore == 2) runGenerator(ore_overworld_lead, world, random, chunkX, chunkZ, 4, 0, 36);
 					if(ore == 3) runGenerator(ore_overworld_copper, world, random, chunkX, chunkZ, 5, 0, 60);
 					if(ore == 4) runGenerator(ore_overworld_aluminum, world, random, chunkX, chunkZ, 5, 0, 60);
 					if(ore == 5) runGenerator(ore_overworld_titanium, world, random, chunkX, chunkZ, 5, 0, 60);
-					if(ore == 6) runGenerator(ore_overworld_silver, world, random, chunkX, chunkZ, 3, 0, 6);
+					if(ore == 6) runGenerator(ore_overworld_silver, world, random, chunkX, chunkZ, 3, 0, 56);
 					if(ore == 7) runGenerator(ore_overworld_magnesium, world, random, chunkX, chunkZ, 5, 0, 56);
 					if(ore == 8) runGenerator(ore_overworld_bronze, world, random, chunkX, chunkZ, 5, 0, 56);
-					if(ore == 9) runGenerator(ore_overworld_rose_quartz, world, random, chunkX, chunkZ, 2, 0, 36);
+				ore = 1 + rand.nextInt(7);
+					if(ore == 1) runGenerator(ore_overworld_rose_quartz, world, random, chunkX, chunkZ, 2, 0, 36);
+					if(ore == 2) runGenerator(ore_overworld_carnelian, world, random, chunkX, chunkZ, 2, 0, 36);
+					if(ore == 3) runGenerator(ore_overworld_malachite, world, random, chunkX, chunkZ, 2, 0, 36);
+					if(ore == 4) runGenerator(ore_overworld_turquoise, world, random, chunkX, chunkZ, 2, 0, 36);
+					if(ore == 5) runGenerator(ore_overworld_ruby, world, random, chunkX, chunkZ, 1, 0, 24);
+					if(ore == 6) runGenerator(ore_overworld_sapphire, world, random, chunkX, chunkZ, 1, 0, 24);
+					if(ore == 7) runGenerator(ore_overworld_peridot, world, random, chunkX, chunkZ, 1, 0, 24);
+					if(ore == 8) runGenerator(ore_overworld_amethyst, world, random, chunkX, chunkZ, 1, 0, 24);
 			}
 			break;
 		case -1:

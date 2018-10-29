@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "M",
+        "M"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:carnelian_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:carnelian_pillar",
+        "count": 2
+    }
+}

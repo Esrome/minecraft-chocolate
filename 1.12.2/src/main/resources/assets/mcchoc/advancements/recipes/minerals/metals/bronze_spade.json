@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:bronze_spade"
+      "mcchoc:minerals/metals/bronze_spade"
     ]
   },
   "criteria": {

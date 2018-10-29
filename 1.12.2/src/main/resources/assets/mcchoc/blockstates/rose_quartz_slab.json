@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "half=bottom":  { "model": "mcchoc:rose_quartz_stairs" },
-        "half=top": { "model": "mcchoc:rose_quartz_block" },
-        "half=double": {"model": "mcchoc:rose_quartz_pillar" }
-    }
-}

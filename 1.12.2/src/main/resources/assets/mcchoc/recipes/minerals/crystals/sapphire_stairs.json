@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "M  ",
+        "MM ",
+        "MMM"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:sapphire_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:sapphire_stairs",
+        "count": 8
+    }
+}

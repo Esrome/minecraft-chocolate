@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:silver_spade"
+      "mcchoc:minerals/metals/silver_spade"
     ]
   },
   "criteria": {

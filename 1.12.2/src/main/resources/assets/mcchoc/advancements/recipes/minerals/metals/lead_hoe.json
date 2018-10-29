@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:lead_hoe"
+      "mcchoc:minerals/metals/lead_hoe"
     ]
   },
   "criteria": {

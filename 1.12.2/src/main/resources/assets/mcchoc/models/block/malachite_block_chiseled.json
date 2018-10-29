@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "side": "mcchoc:blocks/malachite_block_chiseled",
+        "end": "mcchoc:blocks/malachite_block_chiseled_top"
+    }
+}

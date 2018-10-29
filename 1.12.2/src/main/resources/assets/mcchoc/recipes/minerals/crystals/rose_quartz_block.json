@@ -2,10 +2,9 @@
     "type": "minecraft:crafting_shaped",
     
     "pattern":
-    [
-        "MMM",
-        "MMM",
-        "MMM"      
+    
+        "MM",
+        "MM"   
     ],
     
     "key":

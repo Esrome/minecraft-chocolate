@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:magnesium_stairs"
+      "mcchoc:minerals/metals/magnesium_stairs"
     ]
   },
   "criteria": {

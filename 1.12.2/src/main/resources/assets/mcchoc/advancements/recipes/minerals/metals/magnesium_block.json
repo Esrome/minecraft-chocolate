@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:magnesium_block"
+      "mcchoc:minerals/metals/magnesium_block"
     ]
   },
   "criteria": {

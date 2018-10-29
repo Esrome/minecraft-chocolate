@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:magnesium_axe"
+      "mcchoc:minerals/metals/magnesium_axe"
     ]
   },
   "criteria": {

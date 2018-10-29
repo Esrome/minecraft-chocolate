@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:bronze_pickaxe"
+      "mcchoc:minerals/metals/bronze_pickaxe"
     ]
   },
   "criteria": {

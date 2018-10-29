@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:minerals/crystals/sapphire_stairs"
+    ]
+  },
+  "criteria": {
+    "has_sapphire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:sapphire_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sapphire"
+    ]
+  ]
+}

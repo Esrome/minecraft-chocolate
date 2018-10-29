@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:titanium_sword"
+      "mcchoc:minerals/metals/titanium_sword"
     ]
   },
   "criteria": {

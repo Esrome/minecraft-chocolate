@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "mcchoc:blocks/carnelian_pillar_top",
+        "side": "mcchoc:blocks/carnelian_pillar"
+    }
+}

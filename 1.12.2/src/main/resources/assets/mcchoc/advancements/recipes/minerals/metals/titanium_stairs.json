@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:titanium_stairs"
+      "mcchoc:minerals/metals/titanium_stairs"
     ]
   },
   "criteria": {

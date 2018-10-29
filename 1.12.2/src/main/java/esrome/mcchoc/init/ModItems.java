@@ -23,14 +23,7 @@ import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems {
-
-	public static final ToolMaterial PLATINUMT = EnumHelper.addToolMaterial("steel", 2, 750, 7.0F, 3.0F, 15);
-	public static final ToolMaterial CHROMIUMT = EnumHelper.addToolMaterial("steel", 2, 750, 7.0F, 3.0F, 15);
-	public static final ToolMaterial PALLADIUMT = EnumHelper.addToolMaterial("steel", 2, 750, 7.0F, 3.0F, 15);
-	public static final ToolMaterial OSMIUMT = EnumHelper.addToolMaterial("steel", 2, 750, 7.0F, 3.0F, 15);
-	public static final ToolMaterial NICKELT = EnumHelper.addToolMaterial("steel", 2, 750, 7.0F, 3.0F, 15);
-	public static final ToolMaterial TUNGSTENT = EnumHelper.addToolMaterial("steel", 2, 750, 7.0F, 3.0F, 15);
-	//finished
+	
 	public static final ToolMaterial COPPERT = EnumHelper.addToolMaterial("copper", 1, 176, 5.0F, 1.5F, 9);
 	public static final ToolMaterial LEADT = EnumHelper.addToolMaterial("lead", 2, 250, 6.0F, 2.0F, 14);
 	public static final ToolMaterial SILVERT = EnumHelper.addToolMaterial("silver", 2, 350, 9.0F, 2.0F, 19);
@@ -40,13 +33,6 @@ public class ModItems {
 	public static final ToolMaterial MAGNESIUMT = EnumHelper.addToolMaterial("magnesium", 0, 56, 3.0F, 1.0F, 8);
 	public static final ToolMaterial BRONZET = EnumHelper.addToolMaterial("bronze", 1, 256, 5.5F, 3.0F, 7);
 	
-	public static final ArmorMaterial PLATINUMA = EnumHelper.addArmorMaterial("platinum", Reference.MODID + ":platinum", 10, new int[]{1, 3, 5, 2}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-	public static final ArmorMaterial CHROMIUMA = EnumHelper.addArmorMaterial("chromium", Reference.MODID + ":chromium", 10, new int[]{1, 3, 5, 2}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-	public static final ArmorMaterial PALLADIUMA = EnumHelper.addArmorMaterial("palladium", Reference.MODID + ":palladium", 10, new int[]{1, 3, 5, 2}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-	public static final ArmorMaterial OSMIUMA = EnumHelper.addArmorMaterial("osmium", Reference.MODID + ":osmium", 10, new int[]{1, 3, 5, 2}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-	public static final ArmorMaterial NICKELA = EnumHelper.addArmorMaterial("nickel", Reference.MODID + ":nickel", 10, new int[]{1, 3, 5, 2}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-	public static final ArmorMaterial TUNGSTENA = EnumHelper.addArmorMaterial("tungsten", Reference.MODID + ":tungsten", 10, new int[]{1, 3, 5, 2}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-	//finished
 	public static final ArmorMaterial COPPERA = EnumHelper.addArmorMaterial("copper", Reference.MODID + ":copper", 10, new int[]{1, 3, 5, 2}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial LEADA = EnumHelper.addArmorMaterial("lead", Reference.MODID + ":lead", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial SILVERA = EnumHelper.addArmorMaterial("silver", Reference.MODID + ":silver", 18, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F);
@@ -169,6 +155,10 @@ public class ModItems {
 	public static final Item PERIDOT = new ItemBase("peridot", MinecraftChocolate.MINERALS);
 	//malachite
 	public static final Item MALACHITE = new ItemBase("malachite", MinecraftChocolate.MINERALS);
+	//carnelian
+	public static final Item CARNELIAN = new ItemBase("carnelian", MinecraftChocolate.MINERALS);
+	//turquoise
+	public static final Item TURQUOISE = new ItemBase("turquoise", MinecraftChocolate.MINERALS);
 	
 	/*
 	//costumes
@@ -176,9 +166,6 @@ public class ModItems {
 	public static final Item REAPER_ROBE = new ItemCostumeBase(REAPER, "reaper_robe", EntityEquipmentSlot.CHEST);
 	public static final Item REAPER_PANTS = new ItemCostumeBase(REAPER, "reaper_pants", EntityEquipmentSlot.LEGS);
 	public static final Item REAPER_BOOTS = new ItemCostumeBase(REAPER, "reaper_boots", EntityEquipmentSlot.FEET);
-	
-	//bluestone
-	public static final Item BLUESTONE_DUST = new ItemBase("bluestone_dust", MinecraftChocolate.BLUESTONE);
 	
 	//shields
 	public static final Item ROUND_SHIELD = new ItemRoundShield("round_shield");
@@ -189,5 +176,6 @@ public class ModItems {
 	
 	//miscellaneous
 	public static final Item CHOCOLATE = new ItemFoodBase("chocolate", 3, 2.4F, MinecraftChocolate.MINECRAFT_CHOCOLATE);
+	public static final Item WAX = new ItemBase("wax", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	
 }

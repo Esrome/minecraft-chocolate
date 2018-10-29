@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MMM",
+        "MMM",
+        "MMM"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:peridot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:peridot_block",
+        "count": 1
+    }
+}

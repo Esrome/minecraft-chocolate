@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "M  ",
+        "MM ",
+        "MMM"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:carnelian_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:carnelian_stairs",
+        "count": 8
+    }
+}

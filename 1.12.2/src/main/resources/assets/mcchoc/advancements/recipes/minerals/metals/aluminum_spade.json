@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:aluminum_spade"
+      "mcchoc:minerals/metals/aluminum_spade"
     ]
   },
   "criteria": {

@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:minerals/crystals/peridot_block"
+    ]
+  },
+  "criteria": {
+    "has_peridot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:peridot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_peridot"
+    ]
+  ]
+}

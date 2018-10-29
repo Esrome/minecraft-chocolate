@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:copper_block"
+      "mcchoc:minerals/metals/copper_block"
     ]
   },
   "criteria": {

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MM",
+        "MM"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "minecraft:dye",
+            "data": 3
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:chocolate",
+        "count": 1
+    }
+}

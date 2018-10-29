@@ -50,7 +50,7 @@ public class BlockSpecialJackOLantern extends Block implements IHasModel {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(MinecraftChocolate.MINECRAFT_CHOCOLATE);
-		setLightLevel(0.3F);
+		setLightLevel(1.0F);
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 	}

@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:silver_axe"
+      "mcchoc:minerals/metals/silver_axe"
     ]
   },
   "criteria": {

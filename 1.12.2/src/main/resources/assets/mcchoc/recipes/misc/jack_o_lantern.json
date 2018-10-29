@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "C",
+        "P"      
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "mcchoc:candle"
+        },
+        "P":
+        {
+            "item": "minecraft:pumpkin"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:special_jack_o_lantern",
+        "count": 1
+    }
+}

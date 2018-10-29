@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:titanium_nugget"
+      "mcchoc:minerals/metals/titanium_nugget"
     ]
   },
   "criteria": {

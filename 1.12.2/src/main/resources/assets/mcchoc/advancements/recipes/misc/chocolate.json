@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:misc/chocolate"
+    ]
+  },
+  "criteria": {
+    "has_cocoa": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dye",
+            "data": 4
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cocoa"
+    ]
+  ]
+}

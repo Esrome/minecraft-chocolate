@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:bronze_stairs"
+      "mcchoc:minerals/metals/bronze_stairs"
     ]
   },
   "criteria": {

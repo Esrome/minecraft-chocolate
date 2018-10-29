@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:minerals/crystals/ruby_stairs"
+    ]
+  },
+  "criteria": {
+    "has_ruby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:ruby_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ruby"
+    ]
+  ]
+}

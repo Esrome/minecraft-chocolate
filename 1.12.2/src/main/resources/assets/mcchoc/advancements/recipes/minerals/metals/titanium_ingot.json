@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:titanium_ingot"
+      "mcchoc:minerals/metals/titanium_ingot"
     ]
   },
   "criteria": {

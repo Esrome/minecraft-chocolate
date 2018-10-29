@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "mcchoc:lead_axe"
+      "mcchoc:minerals/metals/lead_axe"
     ]
   },
   "criteria": {
