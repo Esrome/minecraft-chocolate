@@ -1,0 +1,8 @@
+{
+    "parent": "block/door_top",
+    "textures":
+    {
+        "bottom": "mcchoc:blocks/titanium_door_bottom",
+        "top": "mcchoc:blocks/titanium_door_top"
+    }
+}

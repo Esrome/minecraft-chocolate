@@ -4,9 +4,9 @@ import esrome.mcchoc.MinecraftChocolate;
 import esrome.mcchoc.init.ModBlocks;
 import esrome.mcchoc.init.ModItems;
 import esrome.mcchoc.util.IHasModel;
-import esrome.mcchoc.util.handlers.EnumHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -14,9 +14,9 @@ import net.minecraft.item.ItemBlock;
 
 public class BlockBase extends Block implements IHasModel {
 	
-	public BlockBase(String name, Material material, float toughness, int harvestlevel, CreativeTabs creativeTab) 
+	public BlockBase(String name, Material material, float toughness, int harvestlevel, CreativeTabs creativeTab, MapColor color) 
 	{
-		super(material);
+		super(material, color);
 		if(!(harvestlevel == -1)){
 			setHarvestLevel("pickaxe", harvestlevel);
 		}
@@ -36,9 +36,9 @@ public class BlockBase extends Block implements IHasModel {
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 	}
 	
-	public BlockBase(String name, Material material, float toughness, int harvestlevel, SoundType type, CreativeTabs creativeTab) 
+	public BlockBase(String name, Material material, float toughness, int harvestlevel, SoundType type, CreativeTabs creativeTab, MapColor color) 
 	{
-		super(material);
+		super(material, color);
 		if(!(harvestlevel == -1)){
 			setHarvestLevel("pickaxe", harvestlevel);
 		}

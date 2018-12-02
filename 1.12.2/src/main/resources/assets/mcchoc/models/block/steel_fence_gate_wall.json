@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_gate",
+    "textures": {
+        "texture": "mcchoc:blocks/steel_block"
+    }
+}

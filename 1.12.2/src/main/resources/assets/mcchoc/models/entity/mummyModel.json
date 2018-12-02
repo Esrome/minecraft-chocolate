@@ -1,0 +1,24 @@
+{
+	"MummyModel": {
+		"texturewidth": 128,
+		"textureheight": 128,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 4,
+		"visible_bounds_offset": [0, 2, 0],
+		"bones": [
+			{
+				"name": "Mummy",
+				"pivot": [0, 0, 0],
+				"cubes": [
+					{"origin": [1, 0, -3], "size": [8, 20, 8], "uv": [24, 68]},
+					{"origin": [-9, 0, -3], "size": [8, 20, 8], "uv": [56, 68]},
+					{"origin": [-10, 20, -3], "size": [20, 12, 8], "uv": [0, 30]},
+					{"origin": [-13, 32, -4], "size": [26, 20, 10], "uv": [0, 0]},
+					{"origin": [-7, 52, -6], "size": [14, 14, 14], "uv": [72, 0]},
+					{"origin": [13, 18, -2], "size": [6, 32, 6], "uv": [56, 30]},
+					{"origin": [-19, 18, -2], "size": [6, 32, 6], "uv": [0, 68]}
+				]
+			}
+		]
+	}
+}

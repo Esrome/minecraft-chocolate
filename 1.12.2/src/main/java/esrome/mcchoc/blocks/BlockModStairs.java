@@ -6,6 +6,7 @@ import esrome.mcchoc.init.ModItems;
 import esrome.mcchoc.util.IHasModel;
 import net.minecraft.block.BlockStairs;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.material.MapColor;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;

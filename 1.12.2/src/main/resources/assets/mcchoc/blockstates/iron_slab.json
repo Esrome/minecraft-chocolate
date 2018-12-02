@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "half=double": { "model": "iron_block" },
+        "half=bottom": { "model": "mcchoc:iron_slab_bottom" },
+        "half=top": { "model": "mcchoc:iron_slab_top" }
+    }
+}

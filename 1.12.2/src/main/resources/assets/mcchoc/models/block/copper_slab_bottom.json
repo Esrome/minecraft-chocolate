@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "mcchoc:blocks/copper_block",
+        "top": "mcchoc:blocks/copper_block",
+        "side": "mcchoc:blocks/copper_block"
+    }
+}

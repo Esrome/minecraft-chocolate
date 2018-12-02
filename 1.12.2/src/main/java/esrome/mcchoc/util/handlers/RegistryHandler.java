@@ -9,6 +9,7 @@ import esrome.mcchoc.init.ModItems;
 import esrome.mcchoc.util.IHasModel;
 import esrome.mcchoc.worldgen.WorldGenMetalOres;
 import net.minecraft.block.Block;
+import net.minecraft.client.gui.inventory.GuiContainerCreative;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.capabilities.CapabilityManager;

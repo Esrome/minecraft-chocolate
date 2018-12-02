@@ -11,7 +11,7 @@
         "facing=east,half=bottom,shape=outer_left":  { "model": "mcchoc:magnesium_stairs_outer", "y": 270, "uvlock": true },
         "facing=west,half=bottom,shape=outer_left":  { "model": "mcchoc:magnesium_stairs_outer", "y": 90, "uvlock": true },
         "facing=south,half=bottom,shape=outer_left": { "model": "mcchoc:magnesium_stairs_outer" },
-        "facing=north,half=bottom,shape=outer_leftm": { "model": "mcchoc:magnesium_stairs_outer", "y": 180, "uvlock": true },
+        "facing=north,half=bottom,shape=outer_left": { "model": "mcchoc:magnesium_stairs_outer", "y": 180, "uvlock": true },
         "facing=east,half=bottom,shape=inner_right":  { "model": "mcchoc:magnesium_stairs_inner" },
         "facing=west,half=bottom,shape=inner_right":  { "model": "mcchoc:magnesium_stairs_inner", "y": 180, "uvlock": true },
         "facing=south,half=bottom,shape=inner_right": { "model": "mcchoc:magnesium_stairs_inner", "y": 90, "uvlock": true },

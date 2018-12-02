@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "half=double": { "model": "gold_block" },
+        "half=bottom": { "model": "mcchoc:gold_slab_bottom" },
+        "half=top": { "model": "mcchoc:gold_slab_top" }
+    }
+}

@@ -6,9 +6,7 @@ import java.util.List;
 import esrome.mcchoc.MinecraftChocolate;
 import esrome.mcchoc.items.ItemBase;
 import esrome.mcchoc.items.defense.ItemArmorBase;
-import esrome.mcchoc.items.defense.ItemRoundShield;
 import esrome.mcchoc.items.food.ItemFoodBase;
-import esrome.mcchoc.items.halloween.costume.ItemCostumeBase;
 import esrome.mcchoc.items.tools.ItemAxeBase;
 import esrome.mcchoc.items.tools.ItemHoeBase;
 import esrome.mcchoc.items.tools.ItemPickaxeBase;
@@ -45,7 +43,6 @@ public class ModItems {
 	public static final ArmorMaterial REAPER = EnumHelper.addArmorMaterial("reaper", Reference.MODID + ":reaper", 5, new int[]{1, 2, 3, 1}, 0, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F);
 	
 	public static final List<Item> ITEMS = new ArrayList<Item>();
-	
 	
 	//copper
 	public static final Item COPPER_INGOT = new ItemBase("copper_ingot", MinecraftChocolate.MINERALS);

@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_post",
+    "textures": {
+        "texture": "mcchoc:blocks/titanium_block"
+    }
+}

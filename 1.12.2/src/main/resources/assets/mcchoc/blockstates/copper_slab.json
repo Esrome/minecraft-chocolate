@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "half=double": { "model": "mcchoc:copper_block" },
+        "half=bottom": { "model": "mcchoc:copper_slab_bottom" },
+        "half=top": { "model": "mcchoc:copper_slab_top" }
+    }
+}
