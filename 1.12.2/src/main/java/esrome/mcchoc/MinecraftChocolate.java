@@ -17,10 +17,12 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class MinecraftChocolate {
-	
-	public static final CreativeTabs MINERALS = new MCChocMinerals("mcChocMineralsTab");
-	//public static final CreativeTabs BLUESTONE = new MCChocBluestone("mcChocBluestoneTab");
+
+	public static final CreativeTabs BUILDING_BLOCKS = new MCChocBuildingBlocks("mcChocBuildingBlocksTab");
+	public static final CreativeTabs REDSTONE = new MCChocRedstone("mcChocRedstoneTab");
 	public static final CreativeTabs MINECRAFT_CHOCOLATE = new MCChoc("mcChoc");
+	public static final CreativeTabs TOOLS = new MCChocTools("mcChocToolsTab");
+	public static final CreativeTabs COMBAT = new MCChocCombat("mcChocCombatTab");
 	
 	@Instance
 	public static MinecraftChocolate instance;
@@ -44,6 +46,7 @@ public class MinecraftChocolate {
 	
 	@EventHandler
 	public static void postInit(FMLPostInitializationEvent event){
+		RegistryHandler.postInitRegistries();
 		System.out.println("Post-Initializing Minecraft Chocolate");
 	}
 	

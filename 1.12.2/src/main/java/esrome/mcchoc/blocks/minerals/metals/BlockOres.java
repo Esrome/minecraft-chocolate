@@ -4,6 +4,7 @@ import esrome.mcchoc.MinecraftChocolate;
 import esrome.mcchoc.blocks.items.ItemBlockVariant;
 import esrome.mcchoc.init.ModBlocks;
 import esrome.mcchoc.init.ModItems;
+import esrome.mcchoc.tileentity.TileEntityTerracottaSwitch;
 import esrome.mcchoc.util.IHasModel;
 import esrome.mcchoc.util.IMetaName;
 import esrome.mcchoc.util.handlers.EnumHandler;
@@ -19,6 +20,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
@@ -37,7 +39,7 @@ public class BlockOres extends Block implements IHasModel, IMetaName
 		setRegistryName(name);
 		setSoundType(SoundType.STONE);
 		setHardness(1.6F);
-		setCreativeTab(MinecraftChocolate.MINERALS);
+		setCreativeTab(MinecraftChocolate.BUILDING_BLOCKS);
 		setDefaultState(this.blockState.getBaseState().withProperty(VARIANT, EnumHandler.EnumMetalType.STEEL));
 		
 		this.name = name;

@@ -1,0 +1,37 @@
+{
+	"credit": "By Esrome The Strange",
+	"textures": {
+		"0": "blocks/log_acacia",
+		"1": "blocks/planks_acacia",
+		"particle": "blocks/log_acacia"
+	},
+	"elements": [
+		{
+			"name": "Back",
+			"from": [5, 4, 14],
+			"to": [11, 12, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 10], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"south": {"uv": [0, 0, 8, 10], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 10], "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 8, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Switch",
+			"from": [7, 6, 11],
+			"to": [9, 8, 16],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"east": {"uv": [0, 0, 6, 2], "texture": "#1"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#1"},
+				"west": {"uv": [0, 0, 6, 2], "texture": "#1"},
+				"up": {"uv": [0, 0, 2, 6], "texture": "#1"},
+				"down": {"uv": [0, 0, 2, 6], "texture": "#1"}
+			}
+		}
+	]
+}

@@ -11,7 +11,8 @@
     {
         "W":
         {
-            "item": "mcchoc:wax"
+            "type": "forge:ore_dict",
+            "ore": "wax"
         },
         "T":
         {

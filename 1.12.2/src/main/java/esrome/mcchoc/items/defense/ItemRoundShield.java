@@ -36,7 +36,7 @@ public class ItemRoundShield extends Item implements IHasModel {
 		this.setMaxDamage(752);
 		this.setUnlocalizedName(name);
 		this.setRegistryName(name);
-		this.setCreativeTab(MinecraftChocolate.MINERALS);
+		this.setCreativeTab(MinecraftChocolate.COMBAT);
 		
 		this.addPropertyOverride(new ResourceLocation("blocking"), new IItemPropertyGetter()
         {

@@ -45,8 +45,8 @@ public class ModItems {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	//copper
-	public static final Item COPPER_INGOT = new ItemBase("copper_ingot", MinecraftChocolate.MINERALS);
-	public static final Item COPPER_NUGGET = new ItemBase("copper_nugget", MinecraftChocolate.MINERALS);
+	public static final Item COPPER_INGOT = new ItemBase("copper_ingot", MinecraftChocolate.MINECRAFT_CHOCOLATE);
+	public static final Item COPPER_NUGGET = new ItemBase("copper_nugget", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	public static final Item COPPER_SWORD = new ItemSwordBase(COPPERT, "copper_sword");
 	public static final Item COPPER_HOE = new ItemHoeBase(COPPERT, "copper_hoe");
 	public static final Item COPPER_SPADE = new ItemShovelBase(COPPERT, "copper_spade");
@@ -57,8 +57,8 @@ public class ModItems {
 	public static final Item COPPER_LEGGINGS = new ItemArmorBase("copper_leggings", COPPERA, 2, EntityEquipmentSlot.LEGS);
 	public static final Item COPPER_BOOTS = new ItemArmorBase("copper_boots", COPPERA, 1, EntityEquipmentSlot.FEET);
 	//lead
-	public static final Item LEAD_INGOT = new ItemBase("lead_ingot", MinecraftChocolate.MINERALS);
-	public static final Item LEAD_NUGGET = new ItemBase("lead_nugget", MinecraftChocolate.MINERALS);
+	public static final Item LEAD_INGOT = new ItemBase("lead_ingot", MinecraftChocolate.MINECRAFT_CHOCOLATE);
+	public static final Item LEAD_NUGGET = new ItemBase("lead_nugget", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	public static final Item LEAD_SWORD = new ItemSwordBase(LEADT, "lead_sword");
 	public static final Item LEAD_HOE = new ItemHoeBase(LEADT, "lead_hoe");
 	public static final Item LEAD_SPADE = new ItemShovelBase(LEADT, "lead_spade");
@@ -69,8 +69,8 @@ public class ModItems {
 	public static final Item LEAD_LEGGINGS = new ItemArmorBase("lead_leggings", LEADA, 2, EntityEquipmentSlot.LEGS);
 	public static final Item LEAD_BOOTS = new ItemArmorBase("lead_boots", LEADA, 1, EntityEquipmentSlot.FEET);
 	//silver
-	public static final Item SILVER_INGOT = new ItemBase("silver_ingot", MinecraftChocolate.MINERALS);
-	public static final Item SILVER_NUGGGET = new ItemBase("silver_nugget", MinecraftChocolate.MINERALS);
+	public static final Item SILVER_INGOT = new ItemBase("silver_ingot", MinecraftChocolate.MINECRAFT_CHOCOLATE);
+	public static final Item SILVER_NUGGGET = new ItemBase("silver_nugget", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	public static final Item SILVER_SWORD = new ItemSwordBase(SILVERT, "silver_sword");
 	public static final Item SILVER_HOE = new ItemHoeBase(SILVERT, "silver_hoe");
 	public static final Item SILVER_SPADE = new ItemShovelBase(SILVERT, "silver_spade");
@@ -81,8 +81,8 @@ public class ModItems {
 	public static final Item SILVER_LEGGINGS = new ItemArmorBase("silver_leggings", SILVERA, 2, EntityEquipmentSlot.LEGS);
 	public static final Item SILVER_BOOTS = new ItemArmorBase("silver_boots", SILVERA, 1, EntityEquipmentSlot.FEET);
 	//steel
-	public static final Item STEEL_INGOT = new ItemBase("steel_ingot", MinecraftChocolate.MINERALS);
-	public static final Item STEEL_NUGGGET = new ItemBase("steel_nugget", MinecraftChocolate.MINERALS);
+	public static final Item STEEL_INGOT = new ItemBase("steel_ingot", MinecraftChocolate.MINECRAFT_CHOCOLATE);
+	public static final Item STEEL_NUGGET = new ItemBase("steel_nugget", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	public static final Item STEEL_SWORD = new ItemSwordBase(STEELT, "steel_sword");
 	public static final Item STEEL_HOE = new ItemHoeBase(STEELT, "steel_hoe");
 	public static final Item STEEL_SPADE = new ItemShovelBase(STEELT, "steel_spade");
@@ -93,8 +93,8 @@ public class ModItems {
 	public static final Item STEEL_LEGGINGS = new ItemArmorBase("steel_leggings", STEELA, 2, EntityEquipmentSlot.LEGS);
 	public static final Item STEEL_BOOTS = new ItemArmorBase("steel_boots", STEELA, 1, EntityEquipmentSlot.FEET);
 	//aluminum
-	public static final Item ALUMINUM_INGOT = new ItemBase("aluminum_ingot", MinecraftChocolate.MINERALS);
-	public static final Item ALUMINUM_NUGGGET = new ItemBase("aluminum_nugget", MinecraftChocolate.MINERALS);
+	public static final Item ALUMINUM_INGOT = new ItemBase("aluminum_ingot", MinecraftChocolate.MINECRAFT_CHOCOLATE);
+	public static final Item ALUMINUM_NUGGET = new ItemBase("aluminum_nugget", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	public static final Item ALUMINUM_SWORD = new ItemSwordBase(ALUMINUMT, "aluminum_sword");
 	public static final Item ALUMINUM_HOE = new ItemHoeBase(ALUMINUMT, "aluminum_hoe");
 	public static final Item ALUMINUM_SPADE = new ItemShovelBase(ALUMINUMT, "aluminum_spade");
@@ -105,8 +105,8 @@ public class ModItems {
 	public static final Item ALUMINUM_LEGGINGS = new ItemArmorBase("aluminum_leggings", ALUMINUMA, 2, EntityEquipmentSlot.LEGS);
 	public static final Item ALUMINUM_BOOTS = new ItemArmorBase("aluminum_boots", ALUMINUMA, 1, EntityEquipmentSlot.FEET);
 	//titanium
-	public static final Item TITANIUM_INGOT = new ItemBase("titanium_ingot", MinecraftChocolate.MINERALS);
-	public static final Item TITANIUM_NUGGET = new ItemBase("titanium_nugget", MinecraftChocolate.MINERALS);
+	public static final Item TITANIUM_INGOT = new ItemBase("titanium_ingot", MinecraftChocolate.MINECRAFT_CHOCOLATE);
+	public static final Item TITANIUM_NUGGET = new ItemBase("titanium_nugget", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	public static final Item TITANIUM_SWORD = new ItemSwordBase(TITANIUMT, "titanium_sword");
 	public static final Item TITANIUM_HOE = new ItemHoeBase(TITANIUMT, "titanium_hoe");
 	public static final Item TITANIUM_SPADE = new ItemShovelBase(TITANIUMT, "titanium_spade");
@@ -117,8 +117,8 @@ public class ModItems {
 	public static final Item TITANIUM_LEGGINGS = new ItemArmorBase("titanium_leggings", TITANIUMA, 2, EntityEquipmentSlot.LEGS);
 	public static final Item TITANIUM_BOOTS = new ItemArmorBase("titanium_boots", TITANIUMA, 1, EntityEquipmentSlot.FEET);
 	//magnesium
-	public static final Item MAGNESIUM_INGOT = new ItemBase("magnesium_ingot", MinecraftChocolate.MINERALS);
-	public static final Item MAGNESIUM_NUGGET = new ItemBase("magnesium_nugget", MinecraftChocolate.MINERALS);
+	public static final Item MAGNESIUM_INGOT = new ItemBase("magnesium_ingot", MinecraftChocolate.MINECRAFT_CHOCOLATE);
+	public static final Item MAGNESIUM_NUGGET = new ItemBase("magnesium_nugget", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	public static final Item MAGNESIUM_SWORD = new ItemSwordBase(MAGNESIUMT, "magnesium_sword");
 	public static final Item MAGNESIUM_HOE = new ItemHoeBase(MAGNESIUMT, "magnesium_hoe");
 	public static final Item MAGNESIUM_SPADE = new ItemShovelBase(MAGNESIUMT, "magnesium_spade");
@@ -129,8 +129,8 @@ public class ModItems {
 	public static final Item MAGNESIUM_LEGGINGS = new ItemArmorBase("magnesium_leggings", MAGNESIUMA, 2, EntityEquipmentSlot.LEGS);
 	public static final Item MAGNESIUM_BOOTS = new ItemArmorBase("magnesium_boots", MAGNESIUMA, 1, EntityEquipmentSlot.FEET);
 	//bronze
-	public static final Item BRONZE_INGOT = new ItemBase("bronze_ingot", MinecraftChocolate.MINERALS);
-	public static final Item BRONZE_NUGGET = new ItemBase("bronze_nugget", MinecraftChocolate.MINERALS);
+	public static final Item BRONZE_INGOT = new ItemBase("bronze_ingot", MinecraftChocolate.MINECRAFT_CHOCOLATE);
+	public static final Item BRONZE_NUGGET = new ItemBase("bronze_nugget", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	public static final Item BRONZE_SWORD = new ItemSwordBase(BRONZET, "bronze_sword");
 	public static final Item BRONZE_HOE = new ItemHoeBase(BRONZET, "bronze_hoe");
 	public static final Item BRONZE_SPADE = new ItemShovelBase(BRONZET, "bronze_spade");
@@ -141,21 +141,21 @@ public class ModItems {
 	public static final Item BRONZE_LEGGINGS = new ItemArmorBase("bronze_leggings", BRONZEA, 2, EntityEquipmentSlot.LEGS);
 	public static final Item BRONZE_BOOTS = new ItemArmorBase("bronze_boots", BRONZEA, 1, EntityEquipmentSlot.FEET);
 	//rose_quartz
-	public static final Item ROSE_QUARTZ = new ItemBase("rose_quartz", MinecraftChocolate.MINERALS);
+	public static final Item ROSE_QUARTZ = new ItemBase("rose_quartz", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	//sapphire
-	public static final Item SAPPHIRE = new ItemBase("sapphire", MinecraftChocolate.MINERALS);
+	public static final Item SAPPHIRE = new ItemBase("sapphire", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	//ruby
-	public static final Item RUBY = new ItemBase("ruby", MinecraftChocolate.MINERALS);
+	public static final Item RUBY = new ItemBase("ruby", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	//amethyst
-	public static final Item AMETHYST = new ItemBase("amethyst", MinecraftChocolate.MINERALS);
+	public static final Item AMETHYST = new ItemBase("amethyst", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	//peridot
-	public static final Item PERIDOT = new ItemBase("peridot", MinecraftChocolate.MINERALS);
+	public static final Item PERIDOT = new ItemBase("peridot", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	//malachite
-	public static final Item MALACHITE = new ItemBase("malachite", MinecraftChocolate.MINERALS);
+	public static final Item MALACHITE = new ItemBase("malachite", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	//carnelian
-	public static final Item CARNELIAN = new ItemBase("carnelian", MinecraftChocolate.MINERALS);
+	public static final Item CARNELIAN = new ItemBase("carnelian", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	//turquoise
-	public static final Item TURQUOISE = new ItemBase("turquoise", MinecraftChocolate.MINERALS);
+	public static final Item TURQUOISE = new ItemBase("turquoise", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	
 	/*
 	//costumes

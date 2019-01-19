@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=north,powered=false": { "model": "mcchoc:wooden_switch_jungle" },
+        "facing=north,powered=true": { "model": "mcchoc:wooden_switch_jungle_on" },
+        "facing=east,powered=false": { "model": "mcchoc:wooden_switch_jungle", "y": 90},
+        "facing=east,powered=true": { "model": "mcchoc:wooden_switch_jungle_on", "y": 90 },
+        "facing=south,powered=false": { "model": "mcchoc:wooden_switch_jungle", "y": 180 },
+        "facing=south,powered=true": { "model": "mcchoc:wooden_switch_jungle_on", "y": 180 },
+        "facing=west,powered=false": { "model": "mcchoc:wooden_switch_jungle", "y": 270 },
+        "facing=west,powered=true": { "model": "mcchoc:wooden_switch_jungle_on", "y": 270 },
+        "facing=up_x,powered=false": { "model": "mcchoc:wooden_switch_jungle", "x": 270, "y": 270 },
+        "facing=up_x,powered=true": { "model": "mcchoc:wooden_switch_jungle_on", "x": 270, "y": 270 },
+        "facing=up_z,powered=false": { "model": "mcchoc:wooden_switch_jungle", "x": 270 },
+        "facing=up_z,powered=true": { "model": "mcchoc:wooden_switch_jungle_on", "x": 270 },
+        "facing=down_x,powered=false": { "model": "mcchoc:wooden_switch_jungle", "x": 90, "y": 270 },
+        "facing=down_x,powered=true": { "model": "mcchoc:wooden_switch_jungle_on", "x": 90, "y": 270 },
+        "facing=down_z,powered=false": { "model": "mcchoc:wooden_switch_jungle", "x": 90 },
+        "facing=down_z,powered=true": { "model": "mcchoc:wooden_switch_jungle_on", "x": 90 }
+    }
+}

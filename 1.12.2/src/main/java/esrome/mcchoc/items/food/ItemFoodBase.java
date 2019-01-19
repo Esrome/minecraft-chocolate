@@ -12,7 +12,7 @@ public class ItemFoodBase extends ItemFood implements IHasModel {
 		super(amount, saturation, isWolfFood);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(MinecraftChocolate.MINERALS);
+		setCreativeTab(MinecraftChocolate.MINECRAFT_CHOCOLATE);
 		
 		ModItems.ITEMS.add(this);
 	}

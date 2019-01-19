@@ -11,7 +11,7 @@ public class ItemHoeBase extends ItemHoe implements IHasModel {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(MinecraftChocolate.MINERALS);
+		setCreativeTab(MinecraftChocolate.TOOLS);
 		
 		ModItems.ITEMS.add(this);
 	}

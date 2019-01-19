@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "mcchoc:blocks/dark_gray_lamp"
+    }
+}

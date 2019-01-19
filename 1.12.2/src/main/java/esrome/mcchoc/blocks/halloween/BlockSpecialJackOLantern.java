@@ -6,7 +6,6 @@ import esrome.mcchoc.MinecraftChocolate;
 import esrome.mcchoc.init.ModBlocks;
 import esrome.mcchoc.init.ModItems;
 import esrome.mcchoc.tileentity.TileEntityJackOLantern;
-import esrome.mcchoc.tileentity.bluestone.TileEntityComponentCrafter;
 import esrome.mcchoc.util.IHasModel;
 import esrome.mcchoc.util.Reference;
 import net.minecraft.block.Block;
@@ -45,7 +44,6 @@ public class BlockSpecialJackOLantern extends Block implements IHasModel {
 		super(Material.GOURD);
 		setSoundType(SoundType.WOOD);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH).withProperty(CANDLE, false));
-		
 		setHardness(1.0F);
 		setUnlocalizedName(name);
 		setRegistryName(name);

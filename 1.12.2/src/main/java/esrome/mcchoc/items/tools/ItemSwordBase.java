@@ -11,7 +11,7 @@ public class ItemSwordBase extends ItemSword implements IHasModel {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(MinecraftChocolate.MINERALS);
+		setCreativeTab(MinecraftChocolate.COMBAT);
 		
 		ModItems.ITEMS.add(this);
 	}

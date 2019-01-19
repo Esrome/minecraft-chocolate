@@ -23,7 +23,7 @@ public class ItemAxeBase extends ItemTool implements IHasModel {
         super(material, EFFECTIVE_ON);
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(MinecraftChocolate.MINERALS);
+        setCreativeTab(MinecraftChocolate.TOOLS);
         ModItems.ITEMS.add(this);
     }
 

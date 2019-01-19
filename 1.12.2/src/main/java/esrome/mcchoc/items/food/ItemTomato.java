@@ -23,7 +23,7 @@ public class ItemTomato extends ItemFood implements IHasModel, IPlantable {
 		super(amount, saturation, isWolfFood);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(MinecraftChocolate.MINERALS);
+		setCreativeTab(MinecraftChocolate.MINECRAFT_CHOCOLATE);
 		
 		ModItems.ITEMS.add(this);
 	}
@@ -32,7 +32,7 @@ public class ItemTomato extends ItemFood implements IHasModel, IPlantable {
 		super(amount, saturation, false);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(MinecraftChocolate.MINERALS);
+		setCreativeTab(MinecraftChocolate.MINECRAFT_CHOCOLATE);
 		
 		ModItems.ITEMS.add(this);
 	}

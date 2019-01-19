@@ -10,8 +10,4 @@ public class Reference {
 	public static final String CLIENT = "esrome.mcchoc.proxy.ClientProxy";
 	public static final String SERVER = "esrome.mcchoc.proxy.ServerProxy";
 	
-	//guis
-	public static final int COAL_GENERATOR_GUI = 1;
-	public static final int COMPONENT_CRAFTER_GUI = 2;
-	
 }

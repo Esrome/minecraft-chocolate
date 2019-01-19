@@ -6,10 +6,12 @@ import esrome.mcchoc.capabilities.thirst.Thirst;
 import esrome.mcchoc.capabilities.thirst.ThirstStorage;
 import esrome.mcchoc.init.ModBlocks;
 import esrome.mcchoc.init.ModItems;
+import esrome.mcchoc.init.ModPotions;
 import esrome.mcchoc.util.IHasModel;
-import esrome.mcchoc.worldgen.WorldGenMetalOres;
+import esrome.mcchoc.util.compatibility.OreDictionaryCompatibility;
+import esrome.mcchoc.world.gen.WorldGenMetalOres;
+import esrome.mcchoc.world.gen.structures.WorldGenChocolateStructures;
 import net.minecraft.block.Block;
-import net.minecraft.client.gui.inventory.GuiContainerCreative;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.capabilities.CapabilityManager;
@@ -51,10 +53,17 @@ public class RegistryHandler {
 	public static void otherRegistries(){
 		CapabilityManager.INSTANCE.register(IThirst.class, new ThirstStorage(), Thirst.class);
 		GameRegistry.registerWorldGenerator(new WorldGenMetalOres(), 0);
+		GameRegistry.registerWorldGenerator(new WorldGenChocolateStructures(), 0);
+		ModPotions.registerPotions();
 	}
 	
 	public static void initRegistries(){
 		NetworkRegistry.INSTANCE.registerGuiHandler(MinecraftChocolate.instance, new GUIHandler());
+		OreDictionaryCompatibility.registerOres();
+	}
+	
+	public static void postInitRegistries() {
+		BehaviorHandler.registerDispensorBehavior();
 	}
 	
 }

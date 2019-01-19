@@ -27,7 +27,7 @@ public class BlockRoseQuartzOre extends Block implements IHasModel {
 		setHardness(3.0F);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(MinecraftChocolate.MINERALS);
+		setCreativeTab(MinecraftChocolate.BUILDING_BLOCKS);
 		
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

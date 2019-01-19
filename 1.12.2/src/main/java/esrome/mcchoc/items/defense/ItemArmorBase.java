@@ -13,7 +13,7 @@ public class ItemArmorBase extends ItemArmor implements IHasModel {
 		super(materialIn, renderIndexIn, equipmentSlotIn);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(MinecraftChocolate.MINERALS);
+		setCreativeTab(MinecraftChocolate.COMBAT);
 		
 		ModItems.ITEMS.add(this);
 	}

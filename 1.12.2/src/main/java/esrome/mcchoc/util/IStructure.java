@@ -1,5 +1,6 @@
 package esrome.mcchoc.util;
 
+import esrome.mcchoc.util.handlers.RandomHandler;
 import net.minecraft.client.renderer.entity.RenderCreeper;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.Rotation;
@@ -9,5 +10,5 @@ import net.minecraftforge.fml.common.FMLCommonHandler;
 
 public interface IStructure {
 	public static final WorldServer worldServer = FMLCommonHandler.instance().getMinecraftServerInstance().getWorld(0);
-	public static final PlacementSettings settings = (new PlacementSettings()).setChunk(null).setIgnoreEntities(false).setIgnoreStructureBlock(false).setMirror(Mirror.NONE).setRotation(Rotation.NONE);
+	public static final PlacementSettings settings = (new PlacementSettings()).setChunk(null).setIgnoreEntities(false).setIgnoreStructureBlock(false).setMirror(Mirror.NONE).setRotation(RandomHandler.randomRotation());
 }

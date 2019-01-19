@@ -34,7 +34,7 @@ import net.minecraft.world.World;
 
 public class BlockHalloweenSign extends Block implements IHasModel{
 
-	protected static final AxisAlignedBB SIGN_BB = new AxisAlignedBB(0.125D, 0.0D, 0.125D, 0.875D, 0.625, 0.875D);
+	protected static final AxisAlignedBB SIGN_BB = new AxisAlignedBB(0.125D, 0.0D, 0.125D, 0.875D, 0.75, 0.875D);
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;
 	
 	public BlockHalloweenSign(String name) {
@@ -69,8 +69,6 @@ public class BlockHalloweenSign extends Block implements IHasModel{
 	@Override
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) 
 	{
-		
-		
 		return true;
 	}
 	
