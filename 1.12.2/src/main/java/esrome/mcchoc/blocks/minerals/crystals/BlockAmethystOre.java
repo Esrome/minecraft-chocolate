@@ -1,5 +1,6 @@
 package esrome.mcchoc.blocks.minerals.crystals;
 
+
 import java.util.Random;
 
 import esrome.mcchoc.MinecraftChocolate;
@@ -33,15 +34,22 @@ public class BlockAmethystOre extends Block implements IHasModel{
 	public Item getItemDropped(IBlockState state, Random rand, int fortune) {
 		return ModItems.AMETHYST;
 	}
-	
+
 	public int quantityDropped(Random random)
     {
         return 1;
     }
-
-    public int quantityDroppedWithBonus(int fortune, Random random)
+	
+	public int quantityDroppedWithBonus(int fortune, Random random)
     {
-         return 1 + random.nextInt(fortune);
+        if (fortune > 0)
+        {
+            return 1 + random.nextInt(fortune);
+        }
+        else
+        {
+            return 1;
+        }
     }
 	
 	@Override

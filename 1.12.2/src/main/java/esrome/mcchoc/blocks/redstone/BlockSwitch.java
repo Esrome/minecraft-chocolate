@@ -56,7 +56,7 @@ public class BlockSwitch extends Block implements IHasModel
 		setRegistryName(name);
 		setSoundType(SoundType.STONE);
 		setHardness(1.6F);
-		setCreativeTab(MinecraftChocolate.REDSTONE);
+		//setCreativeTab(MinecraftChocolate.REDSTONE);
 		setDefaultState(this.blockState.getBaseState().withProperty(POWERED, Boolean.valueOf(false)).withProperty(FACING, BlockLever.EnumOrientation.NORTH));
 		
 		this.name = name;

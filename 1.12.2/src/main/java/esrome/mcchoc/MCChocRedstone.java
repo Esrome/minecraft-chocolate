@@ -8,5 +8,11 @@ import net.minecraft.util.NonNullList;
 
 public class MCChocRedstone extends CreativeTabs {
 	public MCChocRedstone(String label) { super("mcChocRedstoneTab"); }
-	public ItemStack getTabIconItem() { return new ItemStack(ModBlocks.RED_LAMP);}
+	//public ItemStack getTabIconItem() { return new ItemStack(ModBlocks.RED_LAMP);}
+
+	@Override
+	public ItemStack getTabIconItem() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }	

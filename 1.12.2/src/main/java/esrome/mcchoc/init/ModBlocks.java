@@ -142,6 +142,7 @@ public static final List<Block> BLOCKS = new ArrayList<Block>();
 	public static final Block PERIDOT_BLOCK = new BlockBase("peridot_block", Material.IRON, 3.0F, 2, SoundType.METAL, MinecraftChocolate.BUILDING_BLOCKS, MapColor.GREEN);
 	public static final Block PERIDOT_STAIRS = new BlockModStairs(PERIDOT_BLOCK.getDefaultState(), "peridot_stairs", MinecraftChocolate.BUILDING_BLOCKS);
 	//redstone
+	/*
 	public static final Block BLACK_LAMP = new BlockRedstoneLamp("black_lamp");
 	public static final Block BLACK_LAMP_ON = new BlockRedstoneLamp(true, "black_lamp_on");
 	public static final Block RED_LAMP = new BlockRedstoneLamp("red_lamp");
@@ -220,6 +221,7 @@ public static final List<Block> BLOCKS = new ArrayList<Block>();
 	public static final Block GRANITE_SWITCH = new BlockSwitch("granite_switch");
 	public static final Block ANDENSITE_SWITCH = new BlockSwitch("andesite_switch");
 	public static final Block DIORITE_SWITCH = new BlockSwitch("diorite_switch");
+	*/
 	
 	//halloween
 	public static final Block SPECIAL_JACK_O_LANTERN = new BlockSpecialJackOLantern("special_jack_o_lantern");

@@ -30,11 +30,12 @@ public class BlockRedstoneLamp extends BlockBase {
     }
     public BlockRedstoneLamp(String name)
     {
-    	super(name, Material.GLASS, 0.6f, -1, SoundType.GLASS, MinecraftChocolate.REDSTONE);
+    	//super(name, Material.GLASS, 0.6f, -1, SoundType.GLASS, MinecraftChocolate.REDSTONE);
+    	super(name, Material.GLASS, 0.6f, -1, SoundType.GLASS);
     	this.isOn = false;
     }
     
-    private static Block getOffBlock(IBlockState state) {
+/*    private static Block getOffBlock(IBlockState state) {
     	if(state.getBlock()==ModBlocks.BLACK_LAMP || state.getBlock()==ModBlocks.BLACK_LAMP_ON) {
     		return ModBlocks.BLACK_LAMP;
     	}
@@ -153,11 +154,6 @@ public class BlockRedstoneLamp extends BlockBase {
         }
     }
 
-    /**
-     * Called when a neighboring block was changed and marks that this state should perform any checks during a neighbor
-     * change. Cases may include when redstone power is updated, cactus blocks popping off due to a neighboring solid
-     * block, etc.
-     */
     public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos)
     {
         if (!worldIn.isRemote)
@@ -184,9 +180,6 @@ public class BlockRedstoneLamp extends BlockBase {
         }
     }
 
-    /**
-     * Get the Item that this Block should drop when harvested.
-     */
     public Item getItemDropped(IBlockState state, Random rand, int fortune)
     {
         return Item.getItemFromBlock(getOffBlock(state));
@@ -201,4 +194,5 @@ public class BlockRedstoneLamp extends BlockBase {
     {
         return new ItemStack(getOffBlock(state));
     }
+    */
 }

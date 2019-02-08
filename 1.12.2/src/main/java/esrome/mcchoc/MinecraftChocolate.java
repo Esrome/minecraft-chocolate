@@ -19,7 +19,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class MinecraftChocolate {
 
 	public static final CreativeTabs BUILDING_BLOCKS = new MCChocBuildingBlocks("mcChocBuildingBlocksTab");
-	public static final CreativeTabs REDSTONE = new MCChocRedstone("mcChocRedstoneTab");
+	//public static final CreativeTabs REDSTONE = new MCChocRedstone("mcChocRedstoneTab");
 	public static final CreativeTabs MINECRAFT_CHOCOLATE = new MCChoc("mcChoc");
 	public static final CreativeTabs TOOLS = new MCChocTools("mcChocToolsTab");
 	public static final CreativeTabs COMBAT = new MCChocCombat("mcChocCombatTab");

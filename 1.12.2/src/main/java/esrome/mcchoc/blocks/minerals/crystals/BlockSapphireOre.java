@@ -38,10 +38,17 @@ public class BlockSapphireOre extends Block implements IHasModel{
     {
         return 1;
     }
-
-    public int quantityDroppedWithBonus(int fortune, Random random)
+	
+	public int quantityDroppedWithBonus(int fortune, Random random)
     {
-         return 1 + random.nextInt(fortune);
+        if (fortune > 0)
+        {
+            return 1 + random.nextInt(fortune);
+        }
+        else
+        {
+            return 1;
+        }
     }
 	
 	@Override

@@ -38,7 +38,8 @@ public class BlockSpikes extends BlockBase {
     }
     public BlockSpikes(String name)
     {
-    	super(name, Material.GLASS, 2.0f, -1, SoundType.GLASS, MinecraftChocolate.REDSTONE);
+    	//super(name, Material.GLASS, 2.0f, -1, SoundType.GLASS, MinecraftChocolate.REDSTONE);
+    	super(name, Material.IRON, 3.0f, 1, SoundType.GLASS);
     	this.isOn = false;
     }
     
@@ -62,6 +63,7 @@ public class BlockSpikes extends BlockBase {
         return AABB;
     }
     
+    /*
     @Override
     public void onEntityWalk(World worldIn, BlockPos pos, Entity entityIn)
     {
@@ -125,11 +127,6 @@ public class BlockSpikes extends BlockBase {
         }
     }
 
-    /**
-     * Called when a neighboring block was changed and marks that this state should perform any checks during a neighbor
-     * change. Cases may include when redstone power is updated, cactus blocks popping off due to a neighboring solid
-     * block, etc.
-     */
     @Override
     public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos)
     {
@@ -163,9 +160,6 @@ public class BlockSpikes extends BlockBase {
         }
     }
 
-    /**
-     * Get the Item that this Block should drop when harvested.
-     */
     @Override
     public Item getItemDropped(IBlockState state, Random rand, int fortune)
     {
@@ -183,4 +177,5 @@ public class BlockSpikes extends BlockBase {
     {
         return new ItemStack(getOffBlock(state));
     }
+    */
 }
