@@ -60,13 +60,13 @@ public class EnumHandler {
 	public static enum EnumMetalType implements IStringSerializable{
 		
 		SILVER(0, "silver", 2),
-		LEAD(1, "lead", 2),
-		COPPER(2, "copper", 1),
+		LEAD(1, "lead", 1),
+		COPPER(2, "copper", 2),
 		STEEL(3, "steel", 2),
 		ALUMINUM(4, "aluminum", 1),
-		TITANIUM(5, "titanium", 1),
-		BRONZE(6, "bronze", 3),
-		MAGNESIUM(7, "magnesium", 2);
+		TITANIUM(5, "titanium", 2),
+		BRONZE(6, "bronze", 2),
+		MAGNESIUM(7, "tungsten", 3);
 		
 		private static final EnumMetalType[] META_LOOKUP = new EnumMetalType[values().length];
 		private final int meta, harvestLevel;

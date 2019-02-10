@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcchoc:minerals/metals/tungsten_pickaxe"
+    ]
+  },
+  "criteria": {
+    "has_tungsten": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mcchoc:tungsten_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_tungsten"
+    ]
+  ]
+}

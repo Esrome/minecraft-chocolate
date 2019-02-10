@@ -20,7 +20,7 @@ public class SmeltingHandler {
 		GameRegistry.addSmelting(new ItemStack(ModBlocks.MINECRAFT_CHOCOLATE_ORES, 1, 4), new ItemStack(ModItems.ALUMINUM_INGOT, 1), 1.0f);
 		GameRegistry.addSmelting(new ItemStack(ModBlocks.MINECRAFT_CHOCOLATE_ORES, 1, 5), new ItemStack(ModItems.TITANIUM_INGOT, 1), 1.0f);
 		GameRegistry.addSmelting(new ItemStack(ModBlocks.MINECRAFT_CHOCOLATE_ORES, 1, 6), new ItemStack(ModItems.BRONZE_INGOT, 1), 1.0f);
-		GameRegistry.addSmelting(new ItemStack(ModBlocks.MINECRAFT_CHOCOLATE_ORES, 1, 7), new ItemStack(ModItems.MAGNESIUM_INGOT, 1), 1.0f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.MINECRAFT_CHOCOLATE_ORES, 1, 7), new ItemStack(ModItems.TUNGSTEN_INGOT, 1), 1.0f);
 		GameRegistry.addSmelting(new ItemStack(Blocks.REEDS), new ItemStack(ModItems.WAX, 1), 0.1f);
 		GameRegistry.addSmelting(new ItemStack(ModBlocks.RUBY_ORE, 1), new ItemStack(ModItems.RUBY, 1), 1.0f);
 		GameRegistry.addSmelting(new ItemStack(ModBlocks.AMETHYST_ORE, 1), new ItemStack(ModItems.AMETHYST, 1), 1.0f);

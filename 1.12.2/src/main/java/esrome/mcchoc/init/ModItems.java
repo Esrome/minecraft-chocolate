@@ -21,24 +21,24 @@ import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems {
-	
-	public static final ToolMaterial COPPERT = EnumHelper.addToolMaterial("copper", 1, 176, 5.0F, 1.5F, 9);
-	public static final ToolMaterial LEADT = EnumHelper.addToolMaterial("lead", 2, 250, 6.0F, 2.0F, 14);
-	public static final ToolMaterial SILVERT = EnumHelper.addToolMaterial("silver", 2, 350, 9.0F, 2.0F, 19);
-	public static final ToolMaterial STEELT = EnumHelper.addToolMaterial("steel", 2, 750, 7.0F, 3.0F, 15);
-	public static final ToolMaterial ALUMINUMT = EnumHelper.addToolMaterial("aluminum", 1, 136, 4.0F, 1.0F, 7);
-	public static final ToolMaterial TITANIUMT = EnumHelper.addToolMaterial("titanium", 2, 550, 6.6F, 3.0F, 14);
-	public static final ToolMaterial MAGNESIUMT = EnumHelper.addToolMaterial("magnesium", 0, 56, 3.0F, 1.0F, 8);
-	public static final ToolMaterial BRONZET = EnumHelper.addToolMaterial("bronze", 1, 256, 5.5F, 3.0F, 7);
-	
-	public static final ArmorMaterial COPPERA = EnumHelper.addArmorMaterial("copper", Reference.MODID + ":copper", 10, new int[]{1, 3, 5, 2}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-	public static final ArmorMaterial LEADA = EnumHelper.addArmorMaterial("lead", Reference.MODID + ":lead", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-	public static final ArmorMaterial SILVERA = EnumHelper.addArmorMaterial("silver", Reference.MODID + ":silver", 18, new int[]{2, 5, 7, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F);
-	public static final ArmorMaterial STEELA = EnumHelper.addArmorMaterial("steel", Reference.MODID + ":steel", 20, new int[]{2, 6, 7, 3}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-	public static final ArmorMaterial ALUMINUMA = EnumHelper.addArmorMaterial("aluminum", Reference.MODID + ":aluminum", 8, new int[]{1, 2, 3, 2}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-	public static final ArmorMaterial TITANIUMA = EnumHelper.addArmorMaterial("titanium", Reference.MODID + ":titanium", 10, new int[]{1, 3, 5, 2}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-	public static final ArmorMaterial MAGNESIUMA = EnumHelper.addArmorMaterial("magnesium", Reference.MODID + ":magnesium", 6, new int[]{1, 2, 2, 1}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+
+	public static final ToolMaterial LEADT = EnumHelper.addToolMaterial("lead", 0, 128, 2.0F, 0.0F, 13);
+	public static final ToolMaterial SILVERT = EnumHelper.addToolMaterial("silver", 0, 32, 12.0F, 0.0F, 25);
+	public static final ToolMaterial ALUMINUMT = EnumHelper.addToolMaterial("aluminum", 0, 136, 4.0F, 0.0F, 15);
+	public static final ToolMaterial COPPERT = EnumHelper.addToolMaterial("copper", 1, 176, 4.0F, 1.5F, 6);
+	public static final ToolMaterial BRONZET = EnumHelper.addToolMaterial("bronze", 1, 206, 4.2F, 1.6F, 7);
+	public static final ToolMaterial STEELT = EnumHelper.addToolMaterial("steel", 2, 262, 6.2F, 2.2F, 14);
+	public static final ToolMaterial TITANIUMT = EnumHelper.addToolMaterial("titanium", 3, 550, 6.6F, 3.0F, 14);
+	public static final ToolMaterial TUNGSTENT = EnumHelper.addToolMaterial("tungsten", 0, 2536, 7.8F, 5.0F, 16);
+
+	public static final ArmorMaterial LEADA = EnumHelper.addArmorMaterial("lead", Reference.MODID + ":lead", 8, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+	public static final ArmorMaterial SILVERA = EnumHelper.addArmorMaterial("silver", Reference.MODID + ":silver", 7, new int[]{1, 2, 3, 2}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F);
+	public static final ArmorMaterial ALUMINUMA = EnumHelper.addArmorMaterial("aluminum", Reference.MODID + ":aluminum", 8, new int[]{2, 2, 3, 2}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+	public static final ArmorMaterial COPPERA = EnumHelper.addArmorMaterial("copper", Reference.MODID + ":copper", 10, new int[]{2, 3, 5, 2}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial BRONZEA = EnumHelper.addArmorMaterial("bronze", Reference.MODID + ":bronze", 13, new int[]{2, 4, 5, 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+	public static final ArmorMaterial STEELA = EnumHelper.addArmorMaterial("steel", Reference.MODID + ":steel", 22, new int[]{2, 5, 6, 3}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+	public static final ArmorMaterial TITANIUMA = EnumHelper.addArmorMaterial("titanium", Reference.MODID + ":titanium", 27, new int[]{3, 5, 6, 3}, 11, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+	public static final ArmorMaterial TUNGSTENA = EnumHelper.addArmorMaterial("magnesium", Reference.MODID + ":tungsten", 36, new int[]{3, 6, 8, 3}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 3.0F);
 	
 	public static final ArmorMaterial REAPER = EnumHelper.addArmorMaterial("reaper", Reference.MODID + ":reaper", 5, new int[]{1, 2, 3, 1}, 0, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F);
 	
@@ -117,17 +117,17 @@ public class ModItems {
 	public static final Item TITANIUM_LEGGINGS = new ItemArmorBase("titanium_leggings", TITANIUMA, 2, EntityEquipmentSlot.LEGS);
 	public static final Item TITANIUM_BOOTS = new ItemArmorBase("titanium_boots", TITANIUMA, 1, EntityEquipmentSlot.FEET);
 	//magnesium
-	public static final Item MAGNESIUM_INGOT = new ItemBase("magnesium_ingot", MinecraftChocolate.MINECRAFT_CHOCOLATE);
-	public static final Item MAGNESIUM_NUGGET = new ItemBase("magnesium_nugget", MinecraftChocolate.MINECRAFT_CHOCOLATE);
-	public static final Item MAGNESIUM_SWORD = new ItemSwordBase(MAGNESIUMT, "magnesium_sword");
-	public static final Item MAGNESIUM_HOE = new ItemHoeBase(MAGNESIUMT, "magnesium_hoe");
-	public static final Item MAGNESIUM_SPADE = new ItemShovelBase(MAGNESIUMT, "magnesium_spade");
-	public static final Item MAGNESIUM_PICKAXE = new ItemPickaxeBase(MAGNESIUMT, "magnesium_pickaxe");
-	public static final Item MAGNESIUM_AXE = new ItemAxeBase("magnesium_axe", MAGNESIUMT);
-	public static final Item MAGNESIUM_HELMET = new ItemArmorBase("magnesium_helmet", MAGNESIUMA, 1, EntityEquipmentSlot.HEAD);
-	public static final Item MAGNESIUM_CHESTPLATE = new ItemArmorBase("magnesium_chestplate", MAGNESIUMA, 1, EntityEquipmentSlot.CHEST);
-	public static final Item MAGNESIUM_LEGGINGS = new ItemArmorBase("magnesium_leggings", MAGNESIUMA, 2, EntityEquipmentSlot.LEGS);
-	public static final Item MAGNESIUM_BOOTS = new ItemArmorBase("magnesium_boots", MAGNESIUMA, 1, EntityEquipmentSlot.FEET);
+	public static final Item TUNGSTEN_INGOT = new ItemBase("tungsten_ingot", MinecraftChocolate.MINECRAFT_CHOCOLATE);
+	public static final Item TUNGSTEN_NUGGET = new ItemBase("tungsten_nugget", MinecraftChocolate.MINECRAFT_CHOCOLATE);
+	public static final Item TUNGSTEN_SWORD = new ItemSwordBase(TUNGSTENT, "tungsten_sword");
+	public static final Item TUNGSTEN_HOE = new ItemHoeBase(TUNGSTENT, "tungsten_hoe");
+	public static final Item TUNGSTEN_SPADE = new ItemShovelBase(TUNGSTENT, "tungsten_spade");
+	public static final Item TUNGSTEN_PICKAXE = new ItemPickaxeBase(TUNGSTENT, "tungsten_pickaxe");
+	public static final Item TUNGSTEN_AXE = new ItemAxeBase("tungsten_axe", TUNGSTENT);
+	public static final Item TUNGSTEN_HELMET = new ItemArmorBase("tungsten_helmet", TUNGSTENA, 1, EntityEquipmentSlot.HEAD);
+	public static final Item TUNGSTEN_CHESTPLATE = new ItemArmorBase("tungsten_chestplate", TUNGSTENA, 1, EntityEquipmentSlot.CHEST);
+	public static final Item TUNGSTEN_LEGGINGS = new ItemArmorBase("tungsten_leggings", TUNGSTENA, 2, EntityEquipmentSlot.LEGS);
+	public static final Item TUNGSTEN_BOOTS = new ItemArmorBase("tungsten_boots", TUNGSTENA, 1, EntityEquipmentSlot.FEET);
 	//bronze
 	public static final Item BRONZE_INGOT = new ItemBase("bronze_ingot", MinecraftChocolate.MINECRAFT_CHOCOLATE);
 	public static final Item BRONZE_NUGGET = new ItemBase("bronze_nugget", MinecraftChocolate.MINECRAFT_CHOCOLATE);

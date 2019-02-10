@@ -18,7 +18,7 @@ public class OreDictionaryCompatibility {
 		OreDictionary.registerOre("oreAluminum", new ItemStack(ModBlocks.MINECRAFT_CHOCOLATE_ORES, 1, 4));
 		OreDictionary.registerOre("oreTitanium", new ItemStack(ModBlocks.MINECRAFT_CHOCOLATE_ORES, 1, 5));
 		OreDictionary.registerOre("oreBronze", new ItemStack(ModBlocks.MINECRAFT_CHOCOLATE_ORES, 1, 6));
-		OreDictionary.registerOre("oreMagnesium", new ItemStack(ModBlocks.MINECRAFT_CHOCOLATE_ORES, 1, 7));
+		OreDictionary.registerOre("oreTungsten", new ItemStack(ModBlocks.MINECRAFT_CHOCOLATE_ORES, 1, 7));
 		OreDictionary.registerOre("oreRoseQuartz", ModBlocks.ROSE_QUARTZ_ORE);
 		OreDictionary.registerOre("oreQuartz", ModBlocks.ROSE_QUARTZ_ORE);
 		OreDictionary.registerOre("oreMalachite", ModBlocks.MALACHITE_ORE);
@@ -40,7 +40,15 @@ public class OreDictionaryCompatibility {
 		OreDictionary.registerOre("blockAluminum", ModBlocks.ALUMINUM_BLOCK);
 		OreDictionary.registerOre("blockTitanium", ModBlocks.TITANIUM_BLOCK);
 		OreDictionary.registerOre("blockBronze", ModBlocks.BRONZE_BLOCK);
-		OreDictionary.registerOre("blockMagnesium", ModBlocks.MAGNESIUM_BLOCK);
+		OreDictionary.registerOre("blockTungsten", ModBlocks.TUNGSTEN_BLOCK);
+		OreDictionary.registerOre("stairSilver", ModBlocks.SILVER_STAIRS);
+		OreDictionary.registerOre("stairLead", ModBlocks.LEAD_STAIRS);
+		OreDictionary.registerOre("stairCopper", ModBlocks.COPPER_STAIRS);
+		OreDictionary.registerOre("stairSteel", ModBlocks.STEEL_STAIRS);
+		OreDictionary.registerOre("stairAluminum", ModBlocks.ALUMINUM_STAIRS);
+		OreDictionary.registerOre("stairTitanium", ModBlocks.TITANIUM_STAIRS);
+		OreDictionary.registerOre("stairBronze", ModBlocks.BRONZE_STAIRS);
+		OreDictionary.registerOre("stairTungsten", ModBlocks.TUNGSTEN_STAIRS);
 		OreDictionary.registerOre("blockAmethyst", ModBlocks.AMETHYST_BLOCK);
 		OreDictionary.registerOre("blockRuby", ModBlocks.RUBY_BLOCK);
 		OreDictionary.registerOre("blockSapphire", ModBlocks.SAPPHIRE_BLOCK);
@@ -113,7 +121,7 @@ public class OreDictionaryCompatibility {
 		OreDictionary.registerOre("nuggetAluminum", ModItems.ALUMINUM_NUGGET);
 		OreDictionary.registerOre("nuggetTitanium", ModItems.TITANIUM_NUGGET);
 		OreDictionary.registerOre("nuggetBronze", ModItems.BRONZE_NUGGET);
-		OreDictionary.registerOre("nuggetMagnesium", ModItems.MAGNESIUM_NUGGET);
+		OreDictionary.registerOre("nuggetTungsten", ModItems.TUNGSTEN_NUGGET);
 		
 		//swords
 		OreDictionary.registerOre("swordSilver", ModItems.SILVER_SWORD);
@@ -123,7 +131,7 @@ public class OreDictionaryCompatibility {
 		OreDictionary.registerOre("swordAluminum", ModItems.ALUMINUM_SWORD);
 		OreDictionary.registerOre("swordTitanium", ModItems.TITANIUM_SWORD);
 		OreDictionary.registerOre("swordBronze", ModItems.BRONZE_SWORD);
-		OreDictionary.registerOre("swordMagnesium", ModItems.MAGNESIUM_SWORD);
+		OreDictionary.registerOre("swordTungsten", ModItems.TUNGSTEN_SWORD);
 		
 		//axes
 		OreDictionary.registerOre("axeSilver", ModItems.SILVER_AXE);
@@ -133,7 +141,7 @@ public class OreDictionaryCompatibility {
 		OreDictionary.registerOre("axeAluminum", ModItems.ALUMINUM_AXE);
 		OreDictionary.registerOre("axeTitanium", ModItems.TITANIUM_AXE);
 		OreDictionary.registerOre("axeBronze", ModItems.BRONZE_AXE);
-		OreDictionary.registerOre("axeMagnesium", ModItems.MAGNESIUM_AXE);
+		OreDictionary.registerOre("axeTungsten", ModItems.TUNGSTEN_AXE);
 		
 		//pickaxes
 		OreDictionary.registerOre("pickaxeSilver", ModItems.SILVER_PICKAXE);
@@ -143,7 +151,7 @@ public class OreDictionaryCompatibility {
 		OreDictionary.registerOre("pickaxeAluminum", ModItems.ALUMINUM_PICKAXE);
 		OreDictionary.registerOre("pickaxeTitanium", ModItems.TITANIUM_PICKAXE);
 		OreDictionary.registerOre("pickaxeBronze", ModItems.BRONZE_PICKAXE);
-		OreDictionary.registerOre("pickaxeMagnesium", ModItems.MAGNESIUM_PICKAXE);
+		OreDictionary.registerOre("pickaxeTungsten", ModItems.TUNGSTEN_PICKAXE);
 		
 		//shovels
 		OreDictionary.registerOre("spadeSilver", ModItems.SILVER_SPADE);
@@ -153,7 +161,7 @@ public class OreDictionaryCompatibility {
 		OreDictionary.registerOre("spadeAluminum", ModItems.ALUMINUM_SPADE);
 		OreDictionary.registerOre("spadeTitanium", ModItems.TITANIUM_SPADE);
 		OreDictionary.registerOre("spadeBronze", ModItems.BRONZE_SPADE);
-		OreDictionary.registerOre("spadeMagnesium", ModItems.MAGNESIUM_SPADE);
+		OreDictionary.registerOre("spadeTungsten", ModItems.TUNGSTEN_SPADE);
 		
 		//hoes
 		OreDictionary.registerOre("hoeSilver", ModItems.SILVER_HOE);
@@ -163,7 +171,7 @@ public class OreDictionaryCompatibility {
 		OreDictionary.registerOre("hoeAluminum", ModItems.ALUMINUM_HOE);
 		OreDictionary.registerOre("hoeTitanium", ModItems.TITANIUM_HOE);
 		OreDictionary.registerOre("hoeBronze", ModItems.BRONZE_HOE);
-		OreDictionary.registerOre("hoeMagnesium", ModItems.MAGNESIUM_HOE);
+		OreDictionary.registerOre("hoeTungsten", ModItems.TUNGSTEN_HOE);
 		
 		//helmets
 		OreDictionary.registerOre("helmetSilver", ModItems.SILVER_HELMET);
@@ -173,7 +181,7 @@ public class OreDictionaryCompatibility {
 		OreDictionary.registerOre("helmetAluminum", ModItems.ALUMINUM_HELMET);
 		OreDictionary.registerOre("helmetTitanium", ModItems.TITANIUM_HELMET);
 		OreDictionary.registerOre("hlemetBronze", ModItems.BRONZE_HELMET);
-		OreDictionary.registerOre("helmetMagnesium", ModItems.MAGNESIUM_HELMET);
+		OreDictionary.registerOre("helmetTungsten", ModItems.TUNGSTEN_HELMET);
 		
 		//chestplates"
 		OreDictionary.registerOre("chestplateSilver", ModItems.SILVER_CHESTPLATE);
@@ -183,7 +191,7 @@ public class OreDictionaryCompatibility {
 		OreDictionary.registerOre("chestplateAluminum", ModItems.ALUMINUM_CHESTPLATE);
 		OreDictionary.registerOre("chestplateTitanium", ModItems.TITANIUM_CHESTPLATE);
 		OreDictionary.registerOre("chestplateBronze", ModItems.BRONZE_CHESTPLATE);
-		OreDictionary.registerOre("chestplateMagnesium", ModItems.MAGNESIUM_CHESTPLATE);
+		OreDictionary.registerOre("chestplateTungsten", ModItems.TUNGSTEN_CHESTPLATE);
 		
 		//leggings
 		OreDictionary.registerOre("leggingsSilver", ModItems.SILVER_LEGGINGS);
@@ -193,7 +201,7 @@ public class OreDictionaryCompatibility {
 		OreDictionary.registerOre("leggingsAluminum", ModItems.ALUMINUM_LEGGINGS);
 		OreDictionary.registerOre("leggingsTitanium", ModItems.TITANIUM_LEGGINGS);
 		OreDictionary.registerOre("leggingsBronze", ModItems.BRONZE_LEGGINGS);
-		OreDictionary.registerOre("leggingsMagnesium", ModItems.MAGNESIUM_LEGGINGS);
+		OreDictionary.registerOre("leggingsTungsten", ModItems.TUNGSTEN_LEGGINGS);
 		
 		//boots
 		OreDictionary.registerOre("bootsSilver", ModItems.SILVER_BOOTS);
@@ -203,7 +211,7 @@ public class OreDictionaryCompatibility {
 		OreDictionary.registerOre("bootsAluminum", ModItems.ALUMINUM_BOOTS);
 		OreDictionary.registerOre("bootsTitanium", ModItems.TITANIUM_BOOTS);
 		OreDictionary.registerOre("bootsBronze", ModItems.BRONZE_BOOTS);
-		OreDictionary.registerOre("bootsMagnesium", ModItems.MAGNESIUM_BOOTS);
+		OreDictionary.registerOre("bootsTungsten", ModItems.TUNGSTEN_BOOTS);
 		
 		//miscellaneous
 		OreDictionary.registerOre("chocolate", ModItems.CHOCOLATE);

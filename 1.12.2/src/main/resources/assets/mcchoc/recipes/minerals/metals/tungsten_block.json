@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MMM",
+        "MMM",
+        "MMM"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:tungsten_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:tungsten_block",
+        "count": 1
+    }
+}

@@ -22,9 +22,6 @@ import esrome.mcchoc.blocks.minerals.crystals.BlockSapphireOre;
 import esrome.mcchoc.blocks.minerals.crystals.BlockTurquoiseOre;
 import esrome.mcchoc.blocks.minerals.metals.BlockOres;
 import esrome.mcchoc.blocks.plants.BlockTomatoPlant;
-import esrome.mcchoc.blocks.redstone.BlockRedstoneLamp;
-import esrome.mcchoc.blocks.redstone.BlockSpikes;
-import esrome.mcchoc.blocks.redstone.BlockSwitch;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.MapColor;
@@ -87,11 +84,11 @@ public static final List<Block> BLOCKS = new ArrayList<Block>();
 	public static final Block TITANIUM_FENCE = new BlockFenceBase(Material.IRON, MapColor.SILVER, "titanium_fence", MinecraftChocolate.BUILDING_BLOCKS, 1, "pickaxe");
 	public static final Block TITANIUM_FENCE_GATE = new BlockFenceGateBase(Material.IRON, MapColor.SILVER, "titanium_fence_gate", MinecraftChocolate.BUILDING_BLOCKS, 1, "pickaxe");
 	//magnesium
-	public static final Block MAGNESIUM_BLOCK = new BlockBase("magnesium_block", Material.IRON, 2.0F, 1, SoundType.METAL, MinecraftChocolate.BUILDING_BLOCKS, MapColor.SAND);
-	public static final Block MAGNESIUM_STAIRS = new BlockModStairs(MAGNESIUM_BLOCK.getDefaultState(), "magnesium_stairs", MinecraftChocolate.BUILDING_BLOCKS);
-	public static final Block MAGNESIUM_DOOR = new BlockDoorBase(Material.IRON, "magnesium_door", MinecraftChocolate.BUILDING_BLOCKS, 1, "pickaxe");
-	public static final Block MAGNESIUM_FENCE = new BlockFenceBase(Material.IRON, MapColor.SAND, "magnesium_fence", MinecraftChocolate.BUILDING_BLOCKS, 1, "pickaxe");
-	public static final Block MAGNESIUM_FENCE_GATE = new BlockFenceGateBase(Material.IRON, MapColor.SAND, "magnesium_fence_gate", MinecraftChocolate.BUILDING_BLOCKS, 1, "pickaxe");
+	public static final Block TUNGSTEN_BLOCK = new BlockBase("tungsten_block", Material.IRON, 2.0F, 1, SoundType.METAL, MinecraftChocolate.BUILDING_BLOCKS, MapColor.SAND);
+	public static final Block TUNGSTEN_STAIRS = new BlockModStairs(TUNGSTEN_BLOCK.getDefaultState(), "tungsten_stairs", MinecraftChocolate.BUILDING_BLOCKS);
+	public static final Block TUNGSTEN_DOOR = new BlockDoorBase(Material.IRON, "tungsten_door", MinecraftChocolate.BUILDING_BLOCKS, 1, "pickaxe");
+	public static final Block TUNGSTEN_FENCE = new BlockFenceBase(Material.IRON, MapColor.SAND, "tungsten_fence", MinecraftChocolate.BUILDING_BLOCKS, 1, "pickaxe");
+	public static final Block TUNGSTEN_FENCE_GATE = new BlockFenceGateBase(Material.IRON, MapColor.SAND, "tungsten_fence_gate", MinecraftChocolate.BUILDING_BLOCKS, 1, "pickaxe");
 	//bronze
 	public static final Block BRONZE_BLOCK = new BlockBase("bronze_block", Material.IRON, 2.0F, 1, SoundType.METAL, MinecraftChocolate.BUILDING_BLOCKS, MapColor.ORANGE_STAINED_HARDENED_CLAY);
 	public static final Block BRONZE_STAIRS = new BlockModStairs(BRONZE_BLOCK.getDefaultState(), "bronze_stairs", MinecraftChocolate.BUILDING_BLOCKS);

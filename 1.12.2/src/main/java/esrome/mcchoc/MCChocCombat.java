@@ -6,5 +6,5 @@ import net.minecraft.item.ItemStack;
 
 public class MCChocCombat extends CreativeTabs {
 	public MCChocCombat(String label) { super("mcChocCombatTab"); }
-	public ItemStack getTabIconItem() { return new ItemStack(ModItems.COPPER_SWORD);}
+	public ItemStack getTabIconItem() { return new ItemStack(ModItems.TUNGSTEN_SWORD);}
 }	

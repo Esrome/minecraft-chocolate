@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mcchoc:tungsten_ingot"
+        },
+        "title": {
+            "translate": "advancements.mcchoc.minerals.smelt_tungsten.title"
+        },
+        "description": {
+            "translate": "advancements.mcchoc.minerals.smelt_tungsten.description"
+        }
+    },
+    "parent": "mcchoc:minerals/root",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "mcchoc:tungsten_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

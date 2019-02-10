@@ -1,6 +1,0 @@
-{
-    "parent": "block/wall_gate_open",
-    "textures": {
-        "texture": "mcchoc:blocks/magnesium_block"
-    }
-}

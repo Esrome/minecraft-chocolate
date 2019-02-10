@@ -9,7 +9,7 @@ import esrome.mcchoc.init.ModItems;
 import esrome.mcchoc.init.ModPotions;
 import esrome.mcchoc.util.IHasModel;
 import esrome.mcchoc.util.compatibility.OreDictionaryCompatibility;
-import esrome.mcchoc.world.gen.WorldGenMetalOres;
+import esrome.mcchoc.world.gen.WorldGenOres;
 import esrome.mcchoc.world.gen.structures.WorldGenChocolateStructures;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -52,7 +52,7 @@ public class RegistryHandler {
 	
 	public static void otherRegistries(){
 		CapabilityManager.INSTANCE.register(IThirst.class, new ThirstStorage(), Thirst.class);
-		GameRegistry.registerWorldGenerator(new WorldGenMetalOres(), 0);
+		GameRegistry.registerWorldGenerator(new WorldGenOres(), 0);
 		GameRegistry.registerWorldGenerator(new WorldGenChocolateStructures(), 0);
 		ModPotions.registerPotions();
 	}

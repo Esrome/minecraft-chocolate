@@ -1,8 +1,0 @@
-{
-    "parent": "block/door_bottom",
-    "textures":
-    {
-        "bottom": "mcchoc:blocks/magnesium_door_bottom",
-        "top": "mcchoc:blocks/magnesium_door_top"
-    }
-}

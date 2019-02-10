@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "M",
+        "S",
+        "S"      
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "mcchoc:tungsten_ingot"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcchoc:tungsten_spade",
+        "count": 1
+    }
+}
